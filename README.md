@@ -8,7 +8,7 @@ This is a playground for my current knowledge about LLMs in web applications (mo
 
 ## Install app
 
-cd frontend
+cd frontend<br>
 npm install
 
 !important: Remember since this time all frontend scripts work on ..ai_playground/frontend
@@ -35,7 +35,7 @@ npm run format
 
 ## Install app
 
-cd backend
+cd backend<br>
 npm install
 
 !important: Remember since this time all Backend scripts work on ..ai_playground/backend
