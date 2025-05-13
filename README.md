@@ -2,25 +2,51 @@
 
 # DESCRIPTION:
 
-This is a playground for my current knowledge about LLMs in web applications
+This is a playground for my current knowledge about LLMs in web applications (more information below).
 
-## RUN FRONTEND SCRIPTS:
+# Frontend
+
+## Install app
+
+cd frontend<br>
+npm install
+
+!important: Remember since this time all frontend scripts work on ..ai_playground/frontend
+
+## Run App:
 
 npm run dev
 
-## RUN LINTER SCRIPTS:
+## Linter Scripts:
 
-### CHECK LINTER ERRORS
+### Check Linter Errors
 
 npm run lint
 
-### FIX LINTER ERRORS
+### Fix Linter Errors
 
 npm run lint:fix
 
-### FORMAT CODE WITH PRETTIER
+### Format Code With Prettier
 
 npm run format
+
+# Backend
+
+## Install app
+
+cd backend<br>
+npm install
+
+!important: Remember since this time all Backend scripts work on ..ai_playground/backend
+
+## Run App:
+node index.js
+
+# App Description
+
+In frontend/src/components directory there are a list of examples, every example present some functionality.
+Check what's going on below.
 
 ### EXAMPLE1
 
