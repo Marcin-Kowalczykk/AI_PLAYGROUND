@@ -1,12 +1,16 @@
 import React from 'react'
+import useGenerateDescription from '../../hooks/useGenerateDescription/useGenerateDescription'
 
-const Description = () => (
-  <ul>
-    <li id="example-2-description-id1">
-      Click button to send default question to AI and unlock input
-    </li>
-    <li id="example-2-description-id2">Type your answer to the input</li>
-  </ul>
-)
+const Description = () => {
+  const { descriptions, error, loading } = useGenerateDescription()
+
+  return (
+    <div>
+      {loading && <p>Loading...</p>}
+      <ul>{descriptions?.descriptionExample2.map(({ text, id }) => <li key={id}>{text}</li>)}</ul>
+      {error && <p style={{ color: 'red' }}>{error}</p>}
+    </div>
+  )
+}
 
 export default Description
