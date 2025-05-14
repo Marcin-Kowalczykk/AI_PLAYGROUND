@@ -40,8 +40,10 @@ npm install
 
 !important: Remember since this time all Backend scripts work on ..ai_playground/backend
 
-## Run App:
-node index.js
+## Run Server
+npm run dev<br>
+<br>
+In terminal you should see communicate: Backend works on http://localhost:3000
 
 # App Description
 

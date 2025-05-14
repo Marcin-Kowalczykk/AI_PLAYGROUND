@@ -1,15 +1,16 @@
+import useGenerateDescription from '../../hooks/useGenerateDescription/useGenerateDescription'
 import React from 'react'
 
-const Description = () => (
-  <ul>
-    <li id="example-1-description-id1">Extract sample changing questions from the HTML file</li>
-    <li id="example-1-description-id2">
-      Basic query to the OpenAI API to get answers to the questions
-    </li>
-    <li id="example-1-description-id3">
-      Send the AI-generated answers to a sample endpoint to retrieve some data
-    </li>
-  </ul>
-)
+const Description = () => {
+  const { descriptions, error, loading } = useGenerateDescription()
+
+  return (
+    <div>
+      {loading && <p>Loading...</p>}
+      {error && <p style={{ color: 'red' }}>{error}</p>}
+      <ul>{descriptions?.descriptionExample1.map(({ text, id }) => <li key={id}>{text}</li>)}</ul>
+    </div>
+  )
+}
 
 export default Description
