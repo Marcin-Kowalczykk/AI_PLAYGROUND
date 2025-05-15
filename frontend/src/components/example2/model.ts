@@ -1,6 +1,12 @@
-export interface IBody {
-  msgID: string
+interface ISingleConversation {
+  role: 'robot' | 'human'
   text: string
+  msgID: string
 }
 
-export type Answer = IBody
+export type Conversation = ISingleConversation[]
+
+export interface Message {
+  role: 'user' | 'assistant'
+  content: string
+}

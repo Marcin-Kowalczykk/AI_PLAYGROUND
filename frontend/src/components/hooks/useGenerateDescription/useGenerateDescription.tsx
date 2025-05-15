@@ -13,7 +13,9 @@ const useGenerateDescription = () => {
         const response = await axios.get<IDescriptionsResponse>('/internal.api/descriptions')
         setDescriptions(response.data.descriptions)
       } catch (error) {
-        setError(`Failed to fetch data: ${error}`)
+        setError(
+          `Failed to fetch description data, you still can use the rest of the app, remember to run a server: ${error}`,
+        )
       } finally {
         setLoading(false)
       }
