@@ -15,7 +15,9 @@ npm install
 
 ## Run App:
 
-npm run dev
+npm run dev<br>
+<br>
+In terminal you should see communicate: ➜  Local:   http://localhost:5173/ here is your app
 
 ## Linter Scripts:
 
@@ -58,5 +60,11 @@ Check what's going on below.
 
 ### EXAMPLE2
 
-- Conversation with Ai
-- Questions are based on previous questions and asnwers
+- Auto conversation with Ai
+- External Api generates questions (these questions will try to recognize you as a human, system wants to talk only with Robots)
+- AI as a user responds to questions
+- Answers are based on SYSTEM prompt
+- Questions and answers are based on previous questions and answers
+- Ai remember previous question and answers
+- Process works till external api will approve you as a robot based on your (AI) answers
+- You can manipulate AI’s responses by changing its system prompt (systemMsgExample2)

@@ -16,11 +16,19 @@ export const descriptions = {
     descriptionExample2: [
         {
             id: 1,
-            text: 'Click button to send default question to AI and unlock input',
+            text: 'Process below will try to recognize you as a Human',
         },
         {
             id: 2,
-            text: 'Type your answer to the input',
+            text: 'The app is powered by AI',
+        },
+        {
+            id: 3,
+            text: 'The user relies on AI to answer questions without exposing themselves as human',
+        },
+        {
+            id: 4,
+            text: 'Click button to send default question to verification Api and start the process',
         },
     ],
 }
