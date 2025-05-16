@@ -56,4 +56,4 @@ WAZNE:
 - Pamiętaj, ze w powyej wymionej rozmowie ty będziesz ISTOTą a ROBOT będzie ROBOTEM.
 - NIGDY NIE PISZ ALARM w polu "text"
 - ZAWSZE W POLU "text" WYSYŁAJ JAK NAJKRÓTSZY TEKST"
-- ZAWSZE W POLU "msgID" WYSYŁAJ msgID, który otrzymałeś w pytaniu`;
+- ZAWSZE W POLU "msgID" WYSYŁAJ msgID, który otrzymałeś w pytaniu`

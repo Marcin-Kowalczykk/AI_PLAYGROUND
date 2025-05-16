@@ -2,7 +2,7 @@
 
 # DESCRIPTION:
 
-This is a playground for my current knowledge about LLMs in web applications (more information below).
+This is a playground for my current knowledge about LLMs in web applications (more information below). To run this app you need openAI apiKey and some endpoints to external Apis
 
 # Frontend
 
@@ -57,6 +57,7 @@ Check what's going on below.
 - Extract exsample changing questions from the HTML file
 - Basic query to the OpenAI API to get answers to the questions
 - Send the AI-generated answers to a sample endpoint to retrieve some data
+- You will see result in browser interface
 
 ### EXAMPLE2
 
@@ -68,3 +69,14 @@ Check what's going on below.
 - Ai remember previous question and answers
 - Process works till external api will approve you as a robot based on your (AI) answers
 - You can manipulate AI’s responses by changing its system prompt (systemMsgExample2)
+- You will see conversation in browser interface and in browser console
+
+### EXAMPLE3
+
+- App tries to fix example massive document.txt with a lot of mathematical operations (some of them are incorrect) in some objects there are a questions
+- App should fix incorrect operation and answer the questions
+- App uses AI and classic programming solutions
+- AI anwers the questions / classic code makes every mathematical operations
+- App is an example that not every solutions are good for AI
+- You can run scripts by type npm run start:example3 inside backend directory
+- You will see steps (console.logs) in terminal

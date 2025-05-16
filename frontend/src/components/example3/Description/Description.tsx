@@ -1,13 +1,13 @@
-import React from 'react'
-import useGenerateDescription from '../../hooks/useGenerateDescription/useGenerateDescription'
 import GenerateDescription from '../../../components/genericComponents/generateDescription'
+import useGenerateDescription from '../../hooks/useGenerateDescription/useGenerateDescription'
+import React from 'react'
 
 const Description = () => {
   const { descriptions, error, loading } = useGenerateDescription()
 
   return (
     <GenerateDescription
-      description={descriptions?.descriptionExample2}
+      description={descriptions?.descriptionExample3}
       error={error}
       loading={loading}
     />
