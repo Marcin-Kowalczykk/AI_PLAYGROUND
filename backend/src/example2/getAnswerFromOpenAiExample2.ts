@@ -1,25 +1,25 @@
-import OpenAI from "openai";
-import { systemMsgExample2 } from "./systemMsgExample2";
-import { Message } from "./model";
+import OpenAI from 'openai'
+import { systemMsgExample2 } from './systemMsgExample2'
+import { Message } from './model'
 
-export const getAnswerFromOpenAiExample2 = async (openaiConfig: OpenAI, messages: Message[]): Promise<string> => {
-    const updatedMessages: Message[] = [
-        { role: "system", content: systemMsgExample2 },
-        ...messages,
-    ];
+export const getAnswerFromOpenAiExample2 = async (
+  openaiConfig: OpenAI,
+  messages: Message[],
+): Promise<string> => {
+  const updatedMessages: Message[] = [{ role: 'system', content: systemMsgExample2 }, ...messages]
 
-    console.log('History (local) messages to open AI: ', updatedMessages)
-  
-    const response = await openaiConfig.chat.completions.create({
-        model: "gpt-4",
-        messages: updatedMessages,
-    });
+  console.log('History (local) messages to open AI: ', updatedMessages)
 
-    const responseData = response.choices[0]?.message?.content;
+  const response = await openaiConfig.chat.completions.create({
+    model: 'gpt-4',
+    messages: updatedMessages,
+  })
 
-    if (!responseData) {
-        throw new Error('No content returned from OpenAI');
-    }
+  const responseData = response.choices[0]?.message?.content
 
-    return responseData;
-};
+  if (!responseData) {
+    throw new Error('No content returned from OpenAI')
+  }
+
+  return responseData
+}

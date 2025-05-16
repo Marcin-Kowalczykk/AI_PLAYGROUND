@@ -1,10 +1,13 @@
-export type DescriptionExample = { id: number; text: string }[]
+export type DescriptionItem = { id: number; text: string }
 
-export interface IDescriptions {
-  descriptionExample1: DescriptionExample
-  descriptionExample2: DescriptionExample
+export type DescriptionList<T = DescriptionItem> = T[]
+
+export type DescriptionKey = 'descriptionExample1' | 'descriptionExample2' | 'descriptionExample3'
+
+export type Descriptions<T = DescriptionItem> = {
+  [K in DescriptionKey]: DescriptionList<T>
 }
 
-export interface IDescriptionsResponse {
-  descriptions: IDescriptions
+export interface IDescriptionsResponse<T = DescriptionItem> {
+  descriptions: Descriptions<T>
 }

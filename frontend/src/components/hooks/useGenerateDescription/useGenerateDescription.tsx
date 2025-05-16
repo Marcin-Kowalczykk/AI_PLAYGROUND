@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import { IDescriptions, IDescriptionsResponse } from './model'
+import { Descriptions, IDescriptionsResponse } from './model'
 
 const useGenerateDescription = () => {
-  const [descriptions, setDescriptions] = useState<IDescriptions | null>(null)
+  const [descriptions, setDescriptions] = useState<Descriptions | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState<boolean>(true)
 

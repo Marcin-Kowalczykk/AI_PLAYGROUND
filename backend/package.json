@@ -6,7 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "lint": "eslint 'src/**/*.{ts,js}'",
+    "lint:fix": "eslint 'src/**/*.{ts,js}' --fix",
+    "format": "prettier --write 'src/**/*.{ts,js,json,md}'",
+    "start:example3": "ts-node src/example3/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +27,12 @@
     "@types/cors": "^2.8.18",
     "@types/express": "^5.0.1",
     "@types/node": "^22.15.18",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
