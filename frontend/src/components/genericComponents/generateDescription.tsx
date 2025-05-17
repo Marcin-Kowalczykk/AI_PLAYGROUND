@@ -10,7 +10,9 @@ const GenerateDescription: React.FC<{
     <div>
       {loading && <p>Loading...</p>}
       {description?.length ? (
-        <ul style={{ marginBottom: '10px' }}>{description?.map(({ text, id }) => <li key={id}>{text}</li>)}</ul>
+        <ul style={{ marginBottom: '10px' }}>
+          {description?.map(({ text, id }) => <li key={id}>{text}</li>)}
+        </ul>
       ) : (
         <p>there is no no data</p>
       )}
