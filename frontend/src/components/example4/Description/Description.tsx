@@ -6,7 +6,7 @@ const Description = () => {
 
   return (
     <GenerateDescription
-      description={descriptions?.descriptionExample3}
+      description={descriptions?.descriptionExample4}
       error={error}
       loading={loading}
     />

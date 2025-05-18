@@ -1,12 +1,7 @@
-import React, { ReactNode, useState } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 import { extractFlag } from 'components/helpers/extractFlag'
-
-interface IGenerateGetFlagComponentsProps {
-  description: ReactNode
-  title: string
-  getFlagEndpoint: string
-}
+import { IGenerateGetFlagComponentsProps } from './model'
 
 const GenerateGetFlagComponents: React.FC<IGenerateGetFlagComponentsProps> = ({
   description,
