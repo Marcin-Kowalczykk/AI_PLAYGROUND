@@ -7,6 +7,8 @@ import { Message } from './example2/model'
 import { sendFinalAnswerExample3 } from './example3/app'
 import { sendFinalAnswerExample5 } from './example5/app'
 import { openAiConfig } from './openAiConfig'
+import path from 'path'
+import fs from 'fs'
 
 const app = express()
 const port = 3000
@@ -59,8 +61,25 @@ app.get(`${api}/get-flag-example3`, async (_req: Request, res: Response) => {
     res.status(500).json({ error: 'Internal server error.' })
   }
 })
-//example4 make get to send prompts to frontend
+//example4
+app.get(`${api}/get-files-example4`, async (_req: Request, res: Response) => {
+  try {
+    const dirPath = path.join(__dirname, 'example4')
+    const files = fs.readdirSync(dirPath)
+    const result: Record<string, string> = {}
 
+    files.forEach((file) => {
+      const filePath = path.join(dirPath, file)
+      result[file] = fs.readFileSync(filePath, 'utf-8')
+    })
+
+    res.json(result)
+  } catch (error) {
+    console.error('Error in GET /get-flag-example4:', error)
+    res.status(500).json({ error: 'Internal server error.' })
+  }
+})
+//example5
 app.get(`${api}/get-flag-example5`, async (_req: Request, res: Response) => {
   const answer = await sendFinalAnswerExample5()
 

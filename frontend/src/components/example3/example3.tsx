@@ -1,5 +1,5 @@
 import Description from './Description/Description'
-import GenerateGetFlagComponents from 'components/genericComponents/generateGetFlagComponents'
+import GenerateGetFlagComponents from 'components/genericComponents/GenerateGetFlagComponents/generateGetFlagComponents'
 
 const Example3 = () => {
   return (
