@@ -80,3 +80,12 @@ Check what's going on below.
 - App is an example that not every solutions are good for AI
 - You can run scripts by type npm run start:example3 inside backend directory
 - You will see steps (console.logs) in terminal
+
+### EXAMPLE4
+
+- App contains example system prompts
+- You can copy them to for example chatGPT and see what does it return
+- The task for the AI was to take on the role of a robot patrolling a warehouse
+- Robot needs a description about warehouse (there are some obstacles)
+- Robot must avoid all obstacles and reach the computer located at the end of the warehouse
+- AI should return instruction in JSON format only

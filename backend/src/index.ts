@@ -62,6 +62,7 @@ app.get(`${api}/get-flag-example3`, async (_req: Request, res: Response) => {
     res.status(500).json({ error: 'Internal server error.' })
   }
 })
+//example4 make get to send prompts to frontend
 
 app.post(`${api}/test-post-request`, (req: Request, res: Response) => {
   const body = req.body as { message: string }

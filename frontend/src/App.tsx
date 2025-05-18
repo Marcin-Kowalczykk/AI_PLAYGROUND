@@ -2,9 +2,9 @@ import React from 'react'
 import Example1 from './components/example1/Example1'
 import Example2 from './components/example2/Example2'
 import Example3 from './components/example3/example3'
-import './App.css'
-import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import NavBar from 'components/NavBar/NavBar'
+import './App.css'
 
 const App = () => {
   return (
