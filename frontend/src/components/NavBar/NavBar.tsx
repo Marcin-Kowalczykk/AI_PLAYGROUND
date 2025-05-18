@@ -14,6 +14,12 @@ const NavBar = () => {
       <Link to="/example3" className="navbar__link">
         Example 3
       </Link>
+      <Link to="/example4" className="navbar__link">
+        Example 4
+      </Link>
+      <Link to="/example5" className="navbar__link">
+        Example 5
+      </Link>
     </nav>
   )
 }

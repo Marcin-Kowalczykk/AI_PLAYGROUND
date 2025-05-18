@@ -45,4 +45,24 @@ export const descriptions = {
       text: 'More information inside Readme.md',
     },
   ],
+  descriptionExample4: [
+    {
+      id: 1,
+      text: 'On the interface you can just send request to get system prompts and flag',
+    },
+  ],
+  descriptionExample5: [
+    {
+      id: 1,
+      text: 'On the interface you can just send request which runs every script to get result flag',
+    },
+    {
+      id: 2,
+      text: 'All the App logic is in the backend/src/example5 directory',
+    },
+    {
+      id: 3,
+      text: 'More information inside Readme.md',
+    },
+  ],
 }

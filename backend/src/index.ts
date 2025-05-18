@@ -1,15 +1,12 @@
 import express, { Request, Response } from 'express'
 import cors from 'cors'
 import { descriptions } from './constantFiles/destriptions'
-import OpenAI from 'openai'
 import 'dotenv/config'
 import { getAnswerFromOpenAiExample2 } from './example2/getAnswerFromOpenAiExample2'
 import { Message } from './example2/model'
-import { sendFinalAnswer } from './example3/app'
-
-const openaiConfig = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-})
+import { sendFinalAnswerExample3 } from './example3/app'
+import { sendFinalAnswerExample5 } from './example5/app'
+import { openAiConfig } from './openAiConfig'
 
 const app = express()
 const port = 3000
@@ -42,7 +39,7 @@ app.post(`${api}/get-answer-example2`, async (req: Request, res: Response) => {
       console.error('Question parameter is required')
     }
 
-    const answer = await getAnswerFromOpenAiExample2(openaiConfig, messages)
+    const answer = await getAnswerFromOpenAiExample2(openAiConfig, messages)
     console.log('Current answer from OpenAI:', answer)
 
     res.status(200).json({ answer })
@@ -53,7 +50,7 @@ app.post(`${api}/get-answer-example2`, async (req: Request, res: Response) => {
 })
 //example3
 app.get(`${api}/get-flag-example3`, async (_req: Request, res: Response) => {
-  const answer = await sendFinalAnswer()
+  const answer = await sendFinalAnswerExample3()
 
   try {
     res.json({ flag: answer?.message })
@@ -63,6 +60,17 @@ app.get(`${api}/get-flag-example3`, async (_req: Request, res: Response) => {
   }
 })
 //example4 make get to send prompts to frontend
+
+app.get(`${api}/get-flag-example5`, async (_req: Request, res: Response) => {
+  const answer = await sendFinalAnswerExample5()
+
+  try {
+    res.json({ flag: answer?.message })
+  } catch (error) {
+    console.error('Error in GET /get-flag-example3:', error)
+    res.status(500).json({ error: 'Internal server error.' })
+  }
+})
 
 app.post(`${api}/test-post-request`, (req: Request, res: Response) => {
   const body = req.body as { message: string }
