@@ -89,3 +89,11 @@ Check what's going on below.
 - Robot needs a description about warehouse (there are some obstacles)
 - Robot must avoid all obstacles and reach the computer located at the end of the warehouse
 - AI should return instruction in JSON format only
+
+### EXAMPLE5
+
+- The application is used for censoring sensitive data
+- Of course it's just demo so this application is only intended to demonstrate how AI handles text censorship, If this were a real project, you would not be allowed to use the OpenAI API, but would have to use a local model instead
+- The app takes random generated sentence with sensitive data and tries to replace sensitive data into 'CENZURA'
+- You can run scripts by type npm run start:example5 inside backend directory
+- You will see steps (console.logs) in terminal
