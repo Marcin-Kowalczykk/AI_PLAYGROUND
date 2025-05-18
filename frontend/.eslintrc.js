@@ -52,6 +52,7 @@ module.exports = {
         printWidth: 100,
       },
     ],
+    'react/react-in-jsx-scope': 'off',
   },
   overrides: [
     {

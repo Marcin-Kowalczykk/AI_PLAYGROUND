@@ -1,11 +1,18 @@
-import { DescriptionList } from '../../components/hooks/useGenerateDescription/model'
-import React from 'react'
+import { DescriptionList } from 'components/hooks/useGenerateDescription/model'
 
 const GenerateDescription: React.FC<{
   description: DescriptionList | undefined
   loading: boolean
   error: string | null
-}> = ({ description, loading, error }) => {
+}> = ({
+  description,
+  loading,
+  error,
+}: {
+  description: DescriptionList | undefined
+  loading: boolean
+  error: string | null
+}) => {
   return (
     <div>
       {loading && <p>Loading...</p>}

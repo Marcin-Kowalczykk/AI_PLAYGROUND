@@ -4,12 +4,12 @@ import { PREPARED_JSON_TO_SEND } from './constants'
 import { fixMathInTestDataAnswers } from './helpers/fixMathInTestDataAnswers'
 import { fixTestAnswersWithOpenAi } from './helpers/fixTestAnswersWithOpenAi'
 
-interface ISendFinalAnswerResponse {
+export interface ISendFinalAnswerResponse {
   code: number
   message: string
 }
 
-export const sendFinalAnswer = async (): Promise<ISendFinalAnswerResponse | undefined> => {
+export const sendFinalAnswerExample3 = async (): Promise<ISendFinalAnswerResponse | undefined> => {
   const fixedMathInTestData = await fixMathInTestDataAnswers()
   const completeFixedTestData = await fixTestAnswersWithOpenAi(fixedMathInTestData)
 

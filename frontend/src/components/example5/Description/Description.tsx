@@ -1,4 +1,3 @@
-import React from 'react'
 import GenerateDescription from 'components/genericComponents/generateDescription/generateDescription'
 import useGenerateDescription from '../../hooks/useGenerateDescription/useGenerateDescription'
 
@@ -7,7 +6,7 @@ const Description = () => {
 
   return (
     <GenerateDescription
-      description={descriptions?.descriptionExample3}
+      description={descriptions?.descriptionExample5}
       error={error}
       loading={loading}
     />
