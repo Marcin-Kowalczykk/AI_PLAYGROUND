@@ -1,4 +1,4 @@
-import { openAiConfig } from '../../openAiConfig'
+import { openAiConfig } from '../../helpers/askOpenAI/openAiConfig'
 import { TestDataItem } from '../model'
 
 export const fixTestAnswersWithOpenAi = async (data: TestDataItem[]): Promise<TestDataItem[]> => {

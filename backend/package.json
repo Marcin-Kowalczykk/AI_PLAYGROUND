@@ -11,7 +11,8 @@
     "lint:fix": "eslint 'src/**/*.{ts,js}' --fix",
     "format": "prettier --write 'src/**/*.{ts,js,json,md}'",
     "start:example3": "ts-node src/example3/app.ts",
-    "start:example5": "ts-node src/example5/app.ts"
+    "start:example5": "ts-node src/example5/app.ts",
+    "start:example6": "ts-node src/example6/app.ts"
   },
   "keywords": [],
   "author": "",

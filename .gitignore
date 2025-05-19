@@ -20,6 +20,8 @@ frontend/.env
 backend/dist/
 backend/node_modules/
 backend/.env
+backend/lekcje_markdown/
+backend/write_prompt_helper.md
 
 # Editor directories and files
 .vscode/*

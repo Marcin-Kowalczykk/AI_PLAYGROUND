@@ -1,6 +1,6 @@
 import 'dotenv/config'
 import axios from 'axios'
-import { openAiConfig } from '../openAiConfig'
+import { openAiConfig } from '../helpers/askOpenAI/openAiConfig'
 import { TASK_NAME } from './constants'
 import { ISendFinalAnswerResponse } from '../example3/app'
 import { censureTextByOpenAi } from './helpers/censureTextByOpenAi'
@@ -23,6 +23,6 @@ export const sendFinalAnswerExample5 = async (): Promise<ISendFinalAnswerRespons
     console.error('Error sending data to /report:', error)
   }
 }
-//todo send it to frontend to get flag
+
 // sendFinalAnswerExample5()
-// uncomment line above if you want to run process from terminal npm run start:example3
+// uncomment line above if you want to run process from terminal npm run start:example5

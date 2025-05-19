@@ -97,3 +97,11 @@ Check what's going on below.
 - The app takes random generated sentence with sensitive data and tries to replace sensitive data into 'CENZURA'
 - You can run scripts by type npm run start:example5 inside backend directory
 - You will see steps (console.logs) in terminal
+
+### EXAMPLE6
+
+- The application uses LLMs to find information from mp3 files
+- LLM transcripts mp3 files into a text
+- LLM looking for a specific (not obvious) detail from transcripted mp3 files
+- You can run scripts by type npm run start:example6 inside backend directory
+- You will see steps (console.logs) in terminal
