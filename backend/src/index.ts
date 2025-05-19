@@ -6,9 +6,10 @@ import { getAnswerFromOpenAiExample2 } from './example2/getAnswerFromOpenAiExamp
 import { Message } from './example2/model'
 import { sendFinalAnswerExample3 } from './example3/app'
 import { sendFinalAnswerExample5 } from './example5/app'
-import { openAiConfig } from './openAiConfig'
+import { openAiConfig } from './helpers/askOpenAI/openAiConfig'
 import path from 'path'
 import fs from 'fs'
+import { sendFinalAnswerExample6 } from './example6/app'
 
 const app = express()
 const port = 3000
@@ -86,7 +87,18 @@ app.get(`${api}/get-flag-example5`, async (_req: Request, res: Response) => {
   try {
     res.json({ flag: answer?.message })
   } catch (error) {
-    console.error('Error in GET /get-flag-example3:', error)
+    console.error('Error in GET /get-flag-example5:', error)
+    res.status(500).json({ error: 'Internal server error.' })
+  }
+})
+//example6
+app.get(`${api}/get-flag-example6`, async (_req: Request, res: Response) => {
+  const answer = await sendFinalAnswerExample6()
+
+  try {
+    res.json({ flag: answer?.message })
+  } catch (error) {
+    console.error('Error in GET /get-flag-example6:', error)
     res.status(500).json({ error: 'Internal server error.' })
   }
 })

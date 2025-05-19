@@ -23,6 +23,7 @@ const Example4 = () => {
 
   return (
     <div>
+      <h3>Example 4</h3>
       <Description />
       <button onClick={handleExample4Files}>{isLoading ? '...Processing' : 'get files'}</button>
       {files &&

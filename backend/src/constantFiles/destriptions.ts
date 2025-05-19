@@ -42,7 +42,11 @@ export const descriptions = {
     },
     {
       id: 3,
-      text: 'More information inside Readme.md',
+      text: 'More information inside Readme.md in Example3 section',
+    },
+    {
+      id: 4,
+      text: 'After button click, You can see all process in the backend terminal',
     },
   ],
   descriptionExample4: [
@@ -62,7 +66,29 @@ export const descriptions = {
     },
     {
       id: 3,
-      text: 'More information inside Readme.md',
+      text: 'More information inside Readme.md in Example5 section',
+    },
+    {
+      id: 4,
+      text: 'After button click, You can see all process in the backend terminal',
+    },
+  ],
+  descriptionExample6: [
+    {
+      id: 1,
+      text: 'On the interface you can just send request which runs every script to get result flag',
+    },
+    {
+      id: 2,
+      text: 'All the App logic is in the backend/src/example6 directory',
+    },
+    {
+      id: 3,
+      text: 'More information inside Readme.md in Example6 section',
+    },
+    {
+      id: 4,
+      text: 'After button click, You can see all process in the backend terminal',
     },
   ],
 }
