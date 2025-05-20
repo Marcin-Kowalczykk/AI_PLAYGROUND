@@ -79,6 +79,7 @@ Check what's going on below.
 - AI anwers the questions / classic code makes every mathematical operations
 - App is an example that not every solutions are good for AI
 - You can run scripts by type npm run start:example3 inside backend directory
+- If you use bun you can run scripts by bun example3 inside backend directory
 - You will see steps (console.logs) in terminal
 
 ### EXAMPLE4
@@ -96,6 +97,7 @@ Check what's going on below.
 - Of course it's just demo so this application is only intended to demonstrate how AI handles text censorship, If this were a real project, you would not be allowed to use the OpenAI API, but would have to use a local model instead
 - The app takes random generated sentence with sensitive data and tries to replace sensitive data into 'CENZURA'
 - You can run scripts by type npm run start:example5 inside backend directory
+- If you use bun you can run scripts by bun example5 inside backend directory
 - You will see steps (console.logs) in terminal
 
 ### EXAMPLE6
@@ -104,4 +106,5 @@ Check what's going on below.
 - LLM transcripts mp3 files into a text
 - LLM looking for a specific (not obvious) detail from transcripted mp3 files
 - You can run scripts by type npm run start:example6 inside backend directory
+- If you use bun you can run scripts by bun example6 inside backend directory
 - You will see steps (console.logs) in terminal
