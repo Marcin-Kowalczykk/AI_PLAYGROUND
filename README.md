@@ -108,3 +108,11 @@ Check what's going on below.
 - You can run scripts by type npm run start:example6 inside backend directory
 - If you use bun you can run scripts by bun example6 inside backend directory
 - You will see steps (console.logs) in terminal
+
+### EXAMPLE7
+
+- The application uses LLMs to detect which city is on images
+- On Fronted user can add some images to the input
+- After click 'analyze' system will try to detect which city is on images by LLM
+- You can see steps (console.logs) in backend terminal
+- (in progress) make analyze for default images in example7/images directory
