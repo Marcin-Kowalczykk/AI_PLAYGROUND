@@ -6,10 +6,12 @@ import { getAnswerFromOpenAiExample2 } from './example2/getAnswerFromOpenAiExamp
 import { Message } from './example2/model'
 import { sendFinalAnswerExample3 } from './example3/app'
 import { sendFinalAnswerExample5 } from './example5/app'
-import { openAiConfig } from './helpers/askOpenAI/openAiConfig'
+import { openAiConfig } from './middlewares/askOpenAI/openAiConfig'
 import path from 'path'
 import fs from 'fs'
 import { sendFinalAnswerExample6 } from './example6/app'
+import { handleMulterError } from './middlewares/handleMulterError/handleMulterError'
+import { analyzeImages } from './example7/app'
 
 const app = express()
 const port = 3000
@@ -102,13 +104,28 @@ app.get(`${api}/get-flag-example6`, async (_req: Request, res: Response) => {
     res.status(500).json({ error: 'Internal server error.' })
   }
 })
+// Example7
+app.post(
+  `${api}/post-images-example7`,
+  handleMulterError,
+  async (req: Request, res: Response): Promise<void> => {
+    try {
+      console.log('Files from frontend: ', req.files)
 
-app.post(`${api}/test-post-request`, (req: Request, res: Response) => {
-  const body = req.body as { message: string }
+      if (!req.files || !Array.isArray(req.files) || req.files.length === 0) {
+        res.status(400).json({ error: 'No images provided' })
+        return
+      }
 
-  console.log('POST received: ', body.message)
-  res.status(201).json({ message: 'Post data received correctly' })
-})
+      const cityName = await analyzeImages(req.files)
+
+      res.json({ city: cityName })
+    } catch (error) {
+      console.error('Error in POST /post-images-example7:', error)
+      res.status(500).json({ error: 'Internal server error' })
+    }
+  },
+)
 
 app.listen(port, () => {
   console.log(`Backend works on http://localhost:${port}`)

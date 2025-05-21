@@ -1,4 +1,4 @@
-import { openAiConfig } from '../../../helpers/askOpenAI/openAiConfig'
+import { openAiConfig } from '../../../middlewares/askOpenAI/openAiConfig'
 import fs from 'fs'
 
 export const transcribeAudioFile = async (filePath: string): Promise<string | undefined> => {

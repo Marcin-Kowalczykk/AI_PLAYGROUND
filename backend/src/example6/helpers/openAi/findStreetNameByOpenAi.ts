@@ -1,4 +1,4 @@
-import { askOpenAI } from '../../../helpers/askOpenAI/askOpenAi'
+import { askOpenAI } from '../../../middlewares/askOpenAI/askOpenAi'
 import { SYSTEM_PROMPT } from './constants'
 
 export const findStreetNameByOpenAi = async (transcriptionsText: string) => {
