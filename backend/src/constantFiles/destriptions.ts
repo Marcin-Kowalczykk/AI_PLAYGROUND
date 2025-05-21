@@ -94,7 +94,15 @@ export const descriptions = {
   descriptionExample7: [
     {
       id: 1,
-      text: 'On the interface you can just send request which runs every script to get result flag',
+      text: 'You can add some images to the input',
+    },
+    {
+      id: 2,
+      text: 'After click "analyze" system will try to detect which city is on images by LLM',
+    },
+    {
+      id: 3,
+      text: 'You can see steps (console.logs) in backend terminal',
     },
   ],
 }

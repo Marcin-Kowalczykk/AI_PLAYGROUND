@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import axios from 'axios'
 import './Example7.css'
-
+import Description from './Description/Description'
 const Example7 = () => {
   //todo: separate input section / button / result section
   const [selectedFiles, setSelectedFiles] = useState<File[]>([])
@@ -46,6 +46,7 @@ const Example7 = () => {
   return (
     <div className="example7">
       <h3 className="example7__title">Example 7 - Image Analysis</h3>
+      <Description />
       <div className="example7__file-input-group">
         <input
           id="file-upload"
