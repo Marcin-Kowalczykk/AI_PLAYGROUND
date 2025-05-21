@@ -1,5 +1,5 @@
 import OpenAI from 'openai'
-import { fetchDefaultDataFromTxt } from '../../helpers/fetchDefaultDataFromTxt'
+import { fetchDefaultDataFromTxt } from '../../middlewares/fetchDefaultDataFromTxt'
 import { createCensuredPrompt } from './createCensuredPrompt'
 import { DEFAULT_FILE_URL } from '../constants'
 

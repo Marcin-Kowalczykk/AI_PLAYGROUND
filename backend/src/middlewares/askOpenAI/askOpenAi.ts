@@ -1,22 +1,22 @@
-import { Message } from './model'
+import { ChatCompletionMessageParam } from 'openai/resources/chat/completions'
 import { openAiConfig } from './openAiConfig'
 
 export const askOpenAI = async (
   systemPrompt = 'You are a helpful assistant.',
-  messages?: Message[],
+  messages?: ChatCompletionMessageParam[],
+  model = 'gpt-4',
   temperature?: number,
   max_tokens?: number,
-  model = 'gpt-4',
-): Promise<{ answer: string; messages: Message[] }> => {
+): Promise<{ answer: string; messages: ChatCompletionMessageParam[] }> => {
   try {
-    const allMessages: Message[] = [
+    const allMessages = [
       ...(systemPrompt ? [{ role: 'system' as const, content: systemPrompt }] : []),
       ...(messages || []),
     ]
 
     const response = await openAiConfig.chat.completions.create({
       model,
-      messages: allMessages,
+      messages: allMessages as ChatCompletionMessageParam[],
       temperature,
       max_tokens,
     })
@@ -29,7 +29,7 @@ export const askOpenAI = async (
 
     return {
       answer,
-      messages: updatedMessages as Message[],
+      messages: updatedMessages as ChatCompletionMessageParam[],
     }
   } catch (error) {
     console.error('Error asking OpenAI:', error)

@@ -1,6 +1,6 @@
 import { DEFAULT_FILE_URL } from '../constants'
 import { TestDataItem } from '../model'
-import { fetchDefaultDataFromTxt } from '../../helpers/fetchDefaultDataFromTxt'
+import { fetchDefaultDataFromTxt } from '../../middlewares/fetchDefaultDataFromTxt'
 
 export const getDefaultTestData = async (): Promise<TestDataItem[]> => {
   const data = await fetchDefaultDataFromTxt(DEFAULT_FILE_URL)

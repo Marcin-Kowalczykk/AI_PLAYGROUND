@@ -91,4 +91,10 @@ export const descriptions = {
       text: 'After button click, You can see all process in the backend terminal',
     },
   ],
+  descriptionExample7: [
+    {
+      id: 1,
+      text: 'On the interface you can just send request which runs every script to get result flag',
+    },
+  ],
 }

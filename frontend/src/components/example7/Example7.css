@@ -1,0 +1,131 @@
+.example7 {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.example7__title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.example7__file-input-group {
+  display: flex;
+  align-items: center;
+  background: #181e29;
+  border: 1.5px solid #3b4252;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.example7__choose-btn {
+  padding: 0.5rem 1.25rem;
+  background: #27304a;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 1rem;
+}
+.example7__choose-btn:disabled {
+  background: #444b5a;
+  cursor: not-allowed;
+}
+.example7__choose-btn:hover {
+  background: #1a2233;
+}
+
+.example7__file-count {
+  margin-left: 1rem;
+  color: #6b7280;
+  font-size: 0.95em;
+}
+
+.example7__preview-row {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+}
+
+.example7__preview-imgbox {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  min-width: 120px;
+  max-width: 160px;
+  background: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.example7__preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.example7__analyze-btn {
+  padding: 0.5rem 1.25rem;
+  background: #27304a;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 1rem;
+}
+.example7__analyze-btn:disabled {
+  background: #444b5a;
+  cursor: not-allowed;
+}
+
+.example7__result {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #d1fae5;
+  border-radius: 0.5rem;
+  color: #065f46;
+}
+
+.example7__error {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #fee2e2;
+  border-radius: 0.5rem;
+  color: #991b1b;
+}
+
+.example7-file-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.example7-file-input {
+  display: block;
+  width: 95%;
+  font-size: 0.875rem;
+  color: #6b7280;
+  border-radius: 0.5rem;
+  border: 1px solid #9ca3af;
+  background: #111827;
+  padding: 0.5rem 1rem;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+.example7-file-input:focus {
+  box-shadow: 0 0 0 2px #60a5fa;
+  border-color: #60a5fa;
+}

@@ -1,6 +1,6 @@
 import 'dotenv/config'
 import axios from 'axios'
-import { openAiConfig } from '../helpers/askOpenAI/openAiConfig'
+import { openAiConfig } from '../middlewares/askOpenAI/openAiConfig'
 import { TASK_NAME } from './constants'
 import { ISendFinalAnswerResponse } from '../example3/app'
 import { censureTextByOpenAi } from './helpers/censureTextByOpenAi'

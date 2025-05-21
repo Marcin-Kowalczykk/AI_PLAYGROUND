@@ -5,4 +5,5 @@ export const NAV_ITEMS = [
   { path: '/example4', label: 'Example 4' },
   { path: '/example5', label: 'Example 5' },
   { path: '/example6', label: 'Example 6' },
+  { path: '/example7', label: 'Example 7' },
 ] as const
