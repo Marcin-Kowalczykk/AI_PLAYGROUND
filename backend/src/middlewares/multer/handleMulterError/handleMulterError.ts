@@ -1,6 +1,6 @@
 import multer from 'multer'
 import { Request, Response } from 'express'
-import { multerUploadConfig } from '../multer/multerUploadConfig'
+import { multerUploadConfig } from '../multerUploadConfig'
 
 export const handleMulterError = (
   req: Request,
@@ -8,7 +8,7 @@ export const handleMulterError = (
   next: (err?: Error) => void,
   limit = 4,
 ) => {
-  multerUploadConfig.array('images', limit)(req, res, (err) => {
+  multerUploadConfig.array('images', limit)(req, res, (err: unknown) => {
     if (err instanceof multer.MulterError) {
       if (err.code === 'LIMIT_FILE_COUNT') {
         return res.status(400).json({ error: `Too many files. Maximum ${limit} images allowed.` })

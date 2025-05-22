@@ -10,8 +10,8 @@ import { openAiConfig } from './middlewares/askOpenAI/openAiConfig'
 import path from 'path'
 import fs from 'fs'
 import { sendFinalAnswerExample6 } from './example6/app'
-import { handleMulterError } from './middlewares/handleMulterError/handleMulterError'
 import { analyzeImages } from './example7/app'
+import { handleMulterError } from './middlewares/multer/handleMulterError/handleMulterError'
 
 const app = express()
 const port = 3000

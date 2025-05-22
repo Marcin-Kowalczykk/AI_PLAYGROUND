@@ -1,4 +1,4 @@
-import { ChatCompletion, ChatCompletionMessageParam } from 'openai/resources/chat/completions'
+import { ChatCompletionMessageParam } from 'openai/resources/chat/completions'
 import { openAiConfig } from './openAiConfig'
 import {
   createLangfuseSpan,
@@ -8,22 +8,7 @@ import {
   handleLangfuseError,
 } from '../../langFuse/langFuseService'
 import { v4 as uuidv4 } from 'uuid'
-
-export interface IAskOpenAI {
-  systemPrompt?: string
-  messages?: ChatCompletionMessageParam[]
-  model?: string
-  temperature?: number
-  max_tokens?: number
-  isTracing?: boolean
-  tracingOptions?: { traceName: string; traceId?: string; sessionId: string; spanName: string }
-}
-
-export interface IAskOpenAIResponse {
-  answer: string
-  messages: ChatCompletionMessageParam[]
-  rawResponseFromOpenAi: ChatCompletion
-}
+import { IAskOpenAIResponse, IAskOpenAI } from './model'
 
 export const askOpenAI = async ({
   systemPrompt = 'You are a helpful assistant.',
