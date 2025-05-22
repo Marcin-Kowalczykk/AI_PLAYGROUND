@@ -6,6 +6,15 @@ export const findStreetNameByOpenAi = async (transcriptionsText: string) => {
   
   ${transcriptionsText}`
 
-  const result = await askOpenAI(SYSTEM_PROMPT, [{ role: 'user', content: userPrompt }])
+  const result = await askOpenAI({
+    systemPrompt: SYSTEM_PROMPT,
+    messages: [{ role: 'user', content: userPrompt }],
+    isTracing: true,
+    tracingOptions: {
+      traceName: 'Example 6 - find street name',
+      sessionId: 'example6',
+      spanName: 'findStreetNameByOpenAi',
+    },
+  })
   return result.answer
 }

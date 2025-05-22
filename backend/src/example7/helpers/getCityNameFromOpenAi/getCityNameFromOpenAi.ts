@@ -7,10 +7,6 @@ import { ImageContent } from '../../../middlewares/askOpenAI/model'
 export const getCityNameFromOpenAi = async (images: Express.Multer.File[] | CompressedImage[]) => {
   const messages: ChatCompletionMessageParam[] = [
     {
-      role: 'system',
-      content: GET_CITY_NAME_SYSTEM_PROMPT,
-    },
-    {
       role: 'user',
       content: [
         ...(images.map((image) => ({
@@ -28,7 +24,17 @@ export const getCityNameFromOpenAi = async (images: Express.Multer.File[] | Comp
     },
   ]
 
-  const getCityFromOpenAiResponse = await askOpenAI(GET_CITY_NAME_SYSTEM_PROMPT, messages, 'gpt-4o')
+  const getCityFromOpenAiResponse = await askOpenAI({
+    systemPrompt: GET_CITY_NAME_SYSTEM_PROMPT,
+    messages,
+    model: 'gpt-4o',
+    isTracing: true,
+    tracingOptions: {
+      traceName: 'Example 7 - get city name',
+      sessionId: 'example7',
+      spanName: 'getCityFromOpenAi',
+    },
+  })
 
   if (!getCityFromOpenAiResponse.answer) {
     console.error('No city name returned from OpenAI')
