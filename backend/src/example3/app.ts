@@ -31,5 +31,5 @@ export const sendFinalAnswerExample3 = async (): Promise<ISendFinalAnswerRespons
   }
 }
 
-// sendFinalAnswer()
+// sendFinalAnswerExample3()
 // uncomment line above if you want to run process from terminal npm run start:example3
