@@ -5,5 +5,5 @@ export interface ISendAnswerToCentralApiResponse {
 
 export interface ISendAnswerToCentralApi {
   taskName: string
-  answer: string
+  answer: unknown
 }
