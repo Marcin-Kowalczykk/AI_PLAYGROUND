@@ -13,9 +13,11 @@
     "start:example3": "ts-node src/example3/app.ts",
     "start:example5": "ts-node src/example5/app.ts",
     "start:example6": "ts-node src/example6/app.ts",
+    "start:example8": "ts-node src/example8/app.ts",
     "example3": "bun src/example3/app.ts",
     "example5": "bun src/example5/app.ts",
-    "example6": "bun src/example6/app.ts"
+    "example6": "bun src/example6/app.ts",
+    "example8": "bun src/example8/app.ts"
   },
   "keywords": [],
   "author": "",
