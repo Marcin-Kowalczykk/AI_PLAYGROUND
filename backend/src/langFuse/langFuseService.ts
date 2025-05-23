@@ -1,6 +1,8 @@
 import { LangfuseGenerationClient, LangfuseSpanClient, LangfuseTraceClient } from 'langfuse'
 import { langfuseConfig } from './langFuseConfig'
 import { ChatCompletion, ChatCompletionMessageParam } from 'openai/resources/chat/completions'
+import { ImagesResponse } from 'openai/resources/images'
+import { CompletionUsage } from 'openai/resources/completions'
 
 export const handleLangfuseError = () => {
   langfuseConfig.on('error', (error: Error) => {
@@ -34,23 +36,37 @@ export const finalizeLangfuseSpan = (
   span: LangfuseSpanClient,
   name: string,
   input: ChatCompletionMessageParam[],
-  output: ChatCompletion,
+  output: ChatCompletion | ImagesResponse,
 ): void => {
   span.update({
     name,
-    output: JSON.stringify(output.choices[0].message),
+    output:
+      'choices' in output
+        ? JSON.stringify(output.choices[0].message)
+        : 'data' in output && output.data && output.data[0]
+          ? JSON.stringify(output.data[0].url)
+          : '',
   })
 
   const generation: LangfuseGenerationClient = span.generation({
     name,
-    model: output.model,
+    model: 'model' in output ? output.model : undefined,
     modelParameters: {},
     input: input,
     output: output,
     usage: {
-      promptTokens: output.usage?.prompt_tokens,
-      completionTokens: output.usage?.completion_tokens,
-      totalTokens: output.usage?.total_tokens,
+      promptTokens:
+        'prompt_tokens' in (output.usage ?? {})
+          ? (output.usage as CompletionUsage).prompt_tokens
+          : undefined,
+      completionTokens:
+        'completion_tokens' in (output.usage ?? {})
+          ? (output.usage as CompletionUsage).completion_tokens
+          : undefined,
+      totalTokens:
+        'total_tokens' in (output.usage ?? {})
+          ? (output.usage as CompletionUsage).total_tokens
+          : undefined,
     },
   })
   generation.end()

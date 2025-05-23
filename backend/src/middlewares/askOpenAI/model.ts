@@ -1,5 +1,6 @@
 import { ChatCompletion } from 'openai/resources/chat/completions'
 import { ChatCompletionMessageParam } from 'openai/resources/chat/completions'
+import { ImagesResponse } from 'openai/resources/index'
 
 export interface ImageContent {
   type: 'image_url'
@@ -28,6 +29,18 @@ export interface IAskOpenAIResponse {
   answer: string
   messages: ChatCompletionMessageParam[]
   rawResponseFromOpenAi: ChatCompletion
+}
+
+export interface IAskOpenAiImage extends IAskOpenAI {
+  n?: number
+  size?: '1024x1024' | '1024x1792' | '1792x1024'
+  response_format?: 'url' | 'b64_json'
+}
+
+export interface IAskOpenAiImageResponse {
+  rawResponseFromOpenAi: ImagesResponse
+  answer: string
+  messages: ChatCompletionMessageParam[]
 }
 
 // export type ChatCompletionMessageParam = {

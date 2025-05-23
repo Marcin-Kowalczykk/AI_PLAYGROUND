@@ -12,6 +12,7 @@ import fs from 'fs'
 import { sendFinalAnswerExample6 } from './example6/app'
 import { analyzeImages } from './example7/app'
 import { handleMulterError } from './middlewares/multer/handleMulterError/handleMulterError'
+import { handleProcessExample8 } from './example8/app'
 
 const app = express()
 const port = 3000
@@ -126,6 +127,17 @@ app.post(
     }
   },
 )
+//example8
+app.get(`${api}/get-flag-example8`, async (_req: Request, res: Response) => {
+  const result = await handleProcessExample8()
+
+  try {
+    res.json({ result })
+  } catch (error) {
+    console.error('Error in GET /get-flag-example8:', error)
+    res.status(500).json({ error: 'Internal server error.' })
+  }
+})
 
 app.listen(port, () => {
   console.log(`Backend works on http://localhost:${port}`)
