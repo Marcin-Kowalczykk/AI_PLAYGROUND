@@ -1,10 +1,10 @@
 import { ChatCompletionMessageParam } from 'openai/resources/chat/completions'
 import { askOpenAI } from '../../../middlewares/askOpenAI/askOpenAi'
-import { CompressedImage } from '../compressImages/model'
 import { GET_CITY_NAME_SYSTEM_PROMPT, GET_CITY_NAME_USER_PROMPT } from './constants'
 import { ImageContent } from '../../../middlewares/askOpenAI/model'
+import { ICompressedImage } from '../../../middlewares/compressImages/model'
 
-export const getCityNameFromOpenAi = async (images: Express.Multer.File[] | CompressedImage[]) => {
+export const getCityNameFromOpenAi = async (images: Express.Multer.File[] | ICompressedImage[]) => {
   const messages: ChatCompletionMessageParam[] = [
     {
       role: 'user',

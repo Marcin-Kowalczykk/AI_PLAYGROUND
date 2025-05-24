@@ -28,5 +28,4 @@ export const sendFinalAnswerExample6 = async (): Promise<ISendFinalAnswerRespons
 }
 
 // sendFinalAnswerExample6()
-
 // uncomment line above if you want to run process from terminal npm run start:example6
