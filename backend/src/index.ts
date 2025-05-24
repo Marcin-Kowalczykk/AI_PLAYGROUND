@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express'
 import cors from 'cors'
-import { descriptions } from './constantFiles/destriptions'
+import { descriptions } from './descriptions/destriptions'
 import 'dotenv/config'
 import { getAnswerFromOpenAiExample2 } from './example2/getAnswerFromOpenAiExample2'
 import { Message } from './example2/model'
@@ -13,6 +13,7 @@ import { sendFinalAnswerExample6 } from './example6/app'
 import { analyzeImages } from './example7/app'
 import { handleMulterError } from './middlewares/multer/handleMulterError/handleMulterError'
 import { handleProcessExample8 } from './example8/app'
+import { handleProcessExample9 } from './example9/app'
 
 const app = express()
 const port = 3000
@@ -128,13 +129,24 @@ app.post(
   },
 )
 //example8
-app.get(`${api}/get-flag-example8`, async (_req: Request, res: Response) => {
+app.get(`${api}/get-example8-result`, async (_req: Request, res: Response) => {
   const result = await handleProcessExample8()
 
   try {
     res.json({ result })
   } catch (error) {
     console.error('Error in GET /get-flag-example8:', error)
+    res.status(500).json({ error: 'Internal server error.' })
+  }
+})
+//example9
+app.get(`${api}/get-flag-example9`, async (_req: Request, res: Response) => {
+  const result = await handleProcessExample9()
+
+  try {
+    res.json({ flag: result?.flag?.message })
+  } catch (error) {
+    console.error('Error in GET /get-flag-example9:', error)
     res.status(500).json({ error: 'Internal server error.' })
   }
 })

@@ -2,8 +2,13 @@ import { sendAnswerToCentralApi } from '../middlewares/sendAnswerToCentralApi/se
 import { TASK_NAME } from './constants'
 import { extractAllFilesContent } from './helpers/extractAllFilesContent/extractAllFilesContent'
 import { categorizeFilesContent } from './helpers/categorizeFilesContent/categorizeFilesContent'
+import { ICategorizeFilesContentResponse } from './helpers/categorizeFilesContent/model'
+import { ISendAnswerToCentralApiResponse } from '../middlewares/sendAnswerToCentralApi/model'
 
-export const handleProcessExample9 = async (): Promise<string | undefined> => {
+export const handleProcessExample9 = async (): Promise<{
+  flag: ISendAnswerToCentralApiResponse | undefined
+  categorizedFiles: ICategorizeFilesContentResponse
+}> => {
   const allFilesContent = await extractAllFilesContent()
   console.log('Categorizing files content...')
 
@@ -17,7 +22,10 @@ export const handleProcessExample9 = async (): Promise<string | undefined> => {
   console.log(example9Response)
   console.log('categorizedFiles: ', categorizedFiles)
 
-  return example9Response?.message
+  return {
+    flag: example9Response,
+    categorizedFiles,
+  }
 }
 
-handleProcessExample9()
+// handleProcessExample9()
