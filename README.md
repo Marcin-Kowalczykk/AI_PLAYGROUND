@@ -116,3 +116,21 @@ Check what's going on below.
 - After click 'analyze' system will try to detect which city is on images by LLM
 - You can see steps (console.logs) in backend terminal
 - (in progress) make analyze for default images in example7/images directory
+
+### EXAMPLE8
+
+- The application uses LLMs to generate images
+- learning how to write effective system prompts intended for image generation
+- user prompts are based on simple, colloquial descriptions of robots, so a good system prompt is needed to generate a correct image when only limited information is available.
+
+### EXAMPLE9
+
+- The application uses LLMs to categorize file names based on its content
+- The application demonstrates the use of LLMs for working with various sources.
+- Source files come from various sources
+- LLM to extract content from txt files
+- LLM to extract text content from mp3 files
+- LLM to extract text content from PNG files
+- Next, the LLM is used to categorize file names based on their extracted contents according to several criteria
+
+### EXAMPLE10
