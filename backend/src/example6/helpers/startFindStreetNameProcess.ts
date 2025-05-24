@@ -3,7 +3,7 @@ import { createTextFileWithTranscriptions } from './transcriptions/createTextFil
 
 export const startFindStreetNameProcess = async () => {
   const transcriptionsText = await createTextFileWithTranscriptions()
-  const streetName = await findStreetNameByOpenAi(transcriptionsText)
+  const streetName = await findStreetNameByOpenAi(transcriptionsText ?? '')
 
   console.log('Street name found by AI:', streetName)
   return streetName
