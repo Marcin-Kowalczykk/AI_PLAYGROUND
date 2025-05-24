@@ -1,7 +1,7 @@
 import { ChatCompletionMessageParam } from 'openai/resources/chat/completions'
 import { askOpenAI } from '../../../middlewares/askOpenAI/askOpenAi'
 import { IExtractedTextContentWithFilename } from '../../model'
-import { CATEGORIZE_FILES_CONTENT_SYSTEM_PROMPT } from './generatecategorizeFilesContentSystemPrompt'
+import { CATEGORIZE_FILES_CONTENT_SYSTEM_PROMPT } from './constants'
 import { ICategorizeFilesContentResponse } from './model'
 
 export const categorizeFilesContent = async (
