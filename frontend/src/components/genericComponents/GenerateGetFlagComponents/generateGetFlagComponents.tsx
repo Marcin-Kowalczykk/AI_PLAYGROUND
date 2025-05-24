@@ -19,6 +19,7 @@ const GenerateGetFlagComponents: React.FC<IGenerateGetFlagComponentsProps> = ({
 
       const extractedFlag = extractFlag(response.data.flag)
       setFlag(extractedFlag)
+      setCurrentError('')
     } catch (error) {
       setCurrentError(`Error fetching flag: ${error}`)
       setFlag(null)

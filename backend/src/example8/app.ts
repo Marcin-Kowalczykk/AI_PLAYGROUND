@@ -1,3 +1,4 @@
+import { ISendAnswerToCentralApiResponse } from '../middlewares/sendAnswerToCentralApi/model'
 import { sendAnswerToCentralApi } from '../middlewares/sendAnswerToCentralApi/sendAnswerToCentralApi'
 import { TASK_NAME } from './constants'
 import { fetchRobotDescription } from './helpers/fetchRobotDescription'
@@ -5,7 +6,7 @@ import { generateRobotImage } from './helpers/generateRobotImage'
 
 export const handleProcessExample8 = async (): Promise<{
   imageURL: string
-  flag: string
+  flag: ISendAnswerToCentralApiResponse | undefined
 }> => {
   const robotDescription = await fetchRobotDescription()
 
@@ -18,7 +19,7 @@ export const handleProcessExample8 = async (): Promise<{
 
   const result = {
     imageURL,
-    flag: example8Response?.message || '',
+    flag: example8Response,
   }
 
   return result

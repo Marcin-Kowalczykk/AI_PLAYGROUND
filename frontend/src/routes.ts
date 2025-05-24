@@ -5,6 +5,8 @@ import Example4 from 'components/example4/Example4'
 import Example5 from 'components/example5/Example5'
 import Example6 from 'components/example6/Example6'
 import Example7 from 'components/example7/Example7'
+import Example8 from 'components/example8/Example8'
+import Example9 from 'components/example9/Example9'
 
 export const ROUTES = [
   { path: '/example1', element: Example1 },
@@ -14,4 +16,6 @@ export const ROUTES = [
   { path: '/example5', element: Example5 },
   { path: '/example6', element: Example6 },
   { path: '/example7', element: Example7 },
+  { path: '/example8', element: Example8 },
+  { path: '/example9', element: Example9 },
 ] as const
