@@ -122,6 +122,10 @@ Check what's going on below.
 - The application uses LLMs to generate images
 - learning how to write effective system prompts intended for image generation
 - user prompts are based on simple, colloquial descriptions of robots, so a good system prompt is needed to generate a correct image when only limited information is available.
+- You can see generated image on frontend after button click
+- You can run scripts by type npm run start:example8 inside backend directory
+- If you use bun you can run scripts by bun example8 inside backend directory
+- You can see steps (console.logs) in backend terminal
 
 ### EXAMPLE9
 
@@ -132,5 +136,8 @@ Check what's going on below.
 - LLM to extract text content from mp3 files
 - LLM to extract text content from PNG files
 - Next, the LLM is used to categorize file names based on their extracted contents according to several criteria
+- You can run scripts by type npm run start:example9 inside backend directory
+- If you use bun you can run scripts by bun example9 inside backend directory
+- You can see steps (console.logs) in backend terminal
 
 ### EXAMPLE10
