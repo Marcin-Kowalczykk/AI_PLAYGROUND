@@ -1,14 +1,14 @@
 import GenerateGetFlagComponents from 'components/genericComponents/GenerateGetFlagComponents/generateGetFlagComponents'
 import Description from './Description/Description'
 
-const Example9 = () => {
+const Example10 = () => {
   return (
     <GenerateGetFlagComponents
       description={<Description />}
-      title="Example9"
-      getFlagEndpoint="get-flag-example9"
+      title="Example10"
+      getFlagEndpoint="get-flag-example10"
     />
   )
 }
 
-export default Example9
+export default Example10

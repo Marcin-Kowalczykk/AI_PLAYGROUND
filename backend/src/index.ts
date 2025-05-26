@@ -14,6 +14,7 @@ import { analyzeImages } from './example7/app'
 import { handleMulterError } from './middlewares/multer/handleMulterError/handleMulterError'
 import { handleProcessExample8 } from './example8/app'
 import { handleProcessExample9 } from './example9/app'
+import { handleProcessExample10 } from './example10/app'
 
 const app = express()
 const port = 3000
@@ -147,6 +148,17 @@ app.get(`${api}/get-flag-example9`, async (_req: Request, res: Response) => {
     res.json({ flag: result?.flag?.message })
   } catch (error) {
     console.error('Error in GET /get-flag-example9:', error)
+    res.status(500).json({ error: 'Internal server error.' })
+  }
+})
+//example10
+app.get(`${api}/get-flag-example10`, async (_req: Request, res: Response) => {
+  const flag = await handleProcessExample10()
+
+  try {
+    res.json({ flag })
+  } catch (error) {
+    console.error('Error in GET /get-flag-example10:', error)
     res.status(500).json({ error: 'Internal server error.' })
   }
 })
