@@ -141,3 +141,13 @@ Check what's going on below.
 - You can see steps (console.logs) in backend terminal
 
 ### EXAMPLE10
+
+- Application for analyze html article by LLM
+- Article contains text, audio, images content
+- Transform html article into markdown file with text, audio and images placeholders
+- Save audio and image files
+- Use LLM to transcribe audio
+- Use LLm to desribe images
+- Create final markdown file with previous content and replace placehodlers by LLM answers (transcribe audio, described images)
+- Use LLM to answer users questions about Article
+BONUS: cache all LLM's answers in txt files to optimize App

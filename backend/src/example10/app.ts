@@ -25,7 +25,7 @@ const recordsPath = join(savedDataPath, DIR_NAMES.RECORDS_DIR_NAME)
 const transcriptionsPath = join(recordsPath, DIR_NAMES.TRANSCRIPTIONS_DIR_NAME)
 const answersPath = join(savedDataPath, FILE_NAMES.ANSWERS_FILE)
 
-const finalProcessExample10 = async (): Promise<string | undefined> => {
+export const handleProcessExample10 = async (): Promise<string | undefined> => {
   await downlaodAndSaveArticle(savedDataPath, articleHtmlPath)
   await downloadAndSaveQuestions(savedDataPath, questionsPath)
   await downloadAndSaveMultimedia(savedDataPath, imagesPath, recordsPath)
@@ -44,4 +44,4 @@ const finalProcessExample10 = async (): Promise<string | undefined> => {
   return answerFromCentral?.message
 }
 
-finalProcessExample10()
+// handleProcessExample10()
