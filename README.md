@@ -79,7 +79,7 @@ Check what's going on below.
 - AI anwers the questions / classic code makes every mathematical operations
 - App is an example that not every solutions are good for AI
 - You can run scripts by type npm run start:example3 inside backend directory
-- If you use bun you can run scripts by bun example3 inside backend directory
+- If you use bun you can run scripts by bun example3 inside backend directory or by click button on frontend
 - You will see steps (console.logs) in terminal
 
 ### EXAMPLE4
@@ -97,7 +97,7 @@ Check what's going on below.
 - Of course it's just demo so this application is only intended to demonstrate how AI handles text censorship, If this were a real project, you would not be allowed to use the OpenAI API, but would have to use a local model instead
 - The app takes random generated sentence with sensitive data and tries to replace sensitive data into 'CENZURA'
 - You can run scripts by type npm run start:example5 inside backend directory
-- If you use bun you can run scripts by bun example5 inside backend directory
+- If you use bun you can run scripts by bun example5 inside backend directory or by click button on frontend
 - You will see steps (console.logs) in terminal
 
 ### EXAMPLE6
@@ -106,7 +106,7 @@ Check what's going on below.
 - LLM transcripts mp3 files into a text
 - LLM looking for a specific (not obvious) detail from transcripted mp3 files
 - You can run scripts by type npm run start:example6 inside backend directory
-- If you use bun you can run scripts by bun example6 inside backend directory
+- If you use bun you can run scripts by bun example6 inside backend directory or by click button on frontend
 - You will see steps (console.logs) in terminal
 
 ### EXAMPLE7
@@ -124,7 +124,7 @@ Check what's going on below.
 - user prompts are based on simple, colloquial descriptions of robots, so a good system prompt is needed to generate a correct image when only limited information is available.
 - You can see generated image on frontend after button click
 - You can run scripts by type npm run start:example8 inside backend directory
-- If you use bun you can run scripts by bun example8 inside backend directory
+- If you use bun you can run scripts by bun example8 inside backend directory or by click button on frontend
 - You can see steps (console.logs) in backend terminal
 
 ### EXAMPLE9
@@ -137,7 +137,7 @@ Check what's going on below.
 - LLM to extract text content from PNG files
 - Next, the LLM is used to categorize file names based on their extracted contents according to several criteria
 - You can run scripts by type npm run start:example9 inside backend directory
-- If you use bun you can run scripts by bun example9 inside backend directory
+- If you use bun you can run scripts by bun example9 inside backend directory or by click button on frontend
 - You can see steps (console.logs) in backend terminal
 
 ### EXAMPLE10
@@ -151,3 +151,15 @@ Check what's going on below.
 - Create final markdown file with previous content and replace placehodlers by LLM answers (transcribe audio, described images)
 - Use LLM to answer users questions about Article
 BONUS: cache all LLM's answers in txt files to optimize App
+- If you use bun you can run scripts by bun example10 inside backend directory or by click button on frontend
+- You can see steps (console.logs) in backend terminal
+
+### EXAMPLE11
+
+- Application focused on document understanding and metadata extraction for security incident reports from a factory environment
+- The application uses 10 txt files to extract by LLM the most important information and then creates a markdown file with the necessary content
+- Application takes 10 report txt files to find metadata (keywords) by LLM
+- To find keywords LLM uses default report documents and markdown file with additional information as its content in prompt
+- App creates json file with all keywords
+- If you use bun you can run scripts by bun example11 inside backend directory or by click button on frontend
+- You can see steps (console.logs) in backend terminal

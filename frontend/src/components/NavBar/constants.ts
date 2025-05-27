@@ -9,4 +9,5 @@ export const NAV_ITEMS = [
   { path: '/example8', label: 'Example 8' },
   { path: '/example9', label: 'Example 9' },
   { path: '/example10', label: 'Example 10' },
+  { path: '/example11', label: 'Example 11' },
 ] as const

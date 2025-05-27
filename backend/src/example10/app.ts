@@ -45,3 +45,4 @@ export const handleProcessExample10 = async (): Promise<string | undefined> => {
 }
 
 // handleProcessExample10()
+// uncomment line above if you want to run process from terminal npm run start:example8 or bun example8

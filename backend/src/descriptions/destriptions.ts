@@ -78,4 +78,5 @@ export const descriptions = {
   descriptionExample8: generateBasicGetFlagDescription(8),
   descriptionExample9: generateBasicGetFlagDescription(9),
   descriptionExample10: generateBasicGetFlagDescription(10),
+  descriptionExample11: generateBasicGetFlagDescription(11),
 }
