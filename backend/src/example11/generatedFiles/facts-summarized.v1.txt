@@ -1,0 +1,82 @@
+
+=== f09.txt ===
+- Osoby (imiona i nazwiska): Brak informacji o konkretnej osobie w tekście.
+- Zawody/specjalizacje: obsługa techniczna
+- Specjalne umiejętności: Bezpieczne przechowywanie zasobów, monitoring i alarmy, przekształcanie przestrzeni w strefę produkcyjną lub laboratoryjną
+- Inne istotne informacje: Sektor D pełni funkcję tymczasowego magazynu, przechowywane są w nim różnorodne materiały i komponenty. Sektor ten bywał wcześniej wykorzystywany do produkcji i montażu podzespołów mechanicznych. Wyposażenie produkcyjne zostało stąd przeniesione. Pomieszczenia sektora są monitorowane i chronione przed nieautoryzowanym dostępem. Sektor D z możliwością szybkiego przekształcenia w strefę produkcyjną lub laboratoryjną. Jego funkcja magazynowa odciąża inne części fabryki.
+
+=== f08.txt ===
+- Osoby (imiona i nazwiska): Adam Gospodarczyk, Azazel
+- Zawody/specjalizacje: lider ruchu oporu, programista, szkoleniowiec, rekruter
+- Specjalne umiejętności: zaawansowane programowanie, manipulowanie kodem, rekrutacja, szkolenie agentów, hakowanie, umiejętność przekazywania wiedzy, bypassowanie zabezpieczeń AI, organizacyjne
+- Inne istotne informacje: 
+   1. Adam jest podejrzewany o przygotowywanie i szkolenie agentów walczących z reżimem sztucznej inteligencji.
+   2. Adam ma głębokie zrozumienie technologii i systemów współczesnego świata, które zdobył dzięki relacji z Azazelem.
+   3. Azazel jest podróżnikiem w czasie i przestrzeni, który posiada dostęp do technologii przyszłości.
+   4. Szkolenia prowadzone przez Adama obejmują techniki bypassowania zabezpieczeń AI.
+   5. Adam działa w cieniu, unikając bezpośredniej konfrontacji z władzami, które wielokrotnie próbowały go schwytać.
+   6. Istnieją przypuszczenia, że Adam ma wpływy również poza ruchem oporu i posiada swoje kontakty w kluczowych strukturach rządowych.
+
+=== f01.txt ===
+- Osoby (imiona i nazwiska): brak
+- Zawody/specjalizacje: technicy, inżynierowie
+- Specjalne umiejętności: testowanie nowoczesnej broni, obsługa zaawansowanych systemów bezpieczeństwa, monitorowanie i analiza danych z testów
+- Inne istotne informacje: Sektor C to strzeżony obszar fabryki przeznaczony do testowania nowoczesnej broni. Obszar ten jest wyposażony w zaawansowane systemy bezpieczeństwa, stanowiska testowe i systemy monitorujące. Dostęp do sektora mają tylko uprawnieni technicy i inżynierowie z odpowiednimi identyfikatorami i odzieżą ochronną. Wszystkie testy broni są ściśle tajne i podlegają natychmiastowej archiwizacji i raportowaniu.
+
+=== f03.txt ===
+- Osoby: brak konkretnej informacji o osobach.
+- Zawody/specjalizacje: inżynierowie, naukowcy, technicy.
+- Specjalne umiejętności: badania i rozwój nowoczesnych ogniw bateryjnych, testowanie prototypów, analiza mikroskopijnych struktur materiałów, implementacja algorytmów sztucznej inteligencji w procesach testowych, rozwijanie technologii szybkiego ładowania i regeneracji baterii.
+- Inne istotne informacje: 
+    - Miejsce pracy: Sektor B.
+    - Celem tych prac jest zwiększenie wydajności energetycznej w przemyśle i zastosowaniach militarnych.
+    - Bezpieczeństwo jest priorytetem, ze względu na ryzyko wybuchów lub emisji toksycznych gazów.
+    - Eksperymenty są przeprowadzane w specjalnie zabezpieczonych komorach.
+    - Dostęp do sektora B jest ściśle ograniczony i zarezerwowany dla osób z odpowiednim poziomem uprawnień.
+    - Każdy etap produkcji i testów jest archiwizowany.
+    - Sektor B jest reprezentantem przyszłości energetyki przemysłowej i jest ośrodkiem innowacji.
+
+=== f02.txt ===
+- Osoby (imiona i nazwiska): brak informacji w tekście
+- Zawody/specjalizacje: inżynierowie, operatorzy, technicy
+- Specjalne umiejętności: programowanie robotów przemysłowych do wykonania precyzyjnych operacji, wyposażenie techników w zaawansowane egzoszkielety, nadzorowanie procesów montażowych za pomocą sztucznej inteligencji
+- Inne istotne informacje: Sektor A to miejsce montażu zarówno zaawansowanych robotów przemysłowych, jak i jednostek wojskowych. Sektor A jest dzielony na strefy, różne dla różnych etapów montażu. Strefy wojskowe są odizolowane i mają dodatkowe zabezpieczenia. Konstrukcja każdego robota wojskowego jest objęta najwyższym stopniem tajności. Pracownicy przemysłowi przechodzą kontrole bezpieczeństwa. Sztuczna inteligencja nadzoruje procesy montażowe. Każda strefa sektora A jest chroniona przez system monitoringu, a strefy montażu militarnego mają dodatkowe systemy biometryczne. Sektor A jest ważnym miejscem strategicznym dla fabryki.
+
+=== f06.txt ===
+- Osoby (imiona i nazwiska): Azazel, Zygfryd
+- Zawody/specjalizacje: brak szczegółów
+- Specjalne umiejętności: 
+  - Przemieszczanie się w czasie i przestrzeni (teleportacja)
+  - Wiedza o obecnej i przyszłej technologii, w tym o systemach operacyjnych robotów i maszyn przemysłowych
+  - Zdolność unikania aresztowania
+  - Znikanie bez śladu
+- Inne istotne informacje: 
+  - Azazel jest jedną z tajemniczych postaci ruchu oporu
+  - Często panuje wokół niego atmosfera niepokoju 
+  - Jego obecność odnotowano w wielu strategicznych fabrykach zarządzanych przez roboty
+  - Może działać na polecenie osoby o imieniu Zygfryd
+  - Ewentualne zdolności Azazela mogą być efektem eksperymentów rządowych
+  - Władza i ruch oporu próbują zdobyć informacje na temat działań Azazela i technologii, jakie wykorzystuje.
+
+=== f07.txt ===
+- Osoby (imiona i nazwiska): Rafał Bomba, profesor Andrzej Maj
+- Zawody/specjalizacje: Rafał Bomba - laborant, asystent profesora, profesor Andrzej Maj - prawdopodobnie naukowiec/badacz
+- Specjalne umiejętności: Rafał miał dostęp do eksperymentów związanych z podróżami w czasie, sztuczną inteligencją i nanotechnologią. Był ceniony za skrupulatność i oddanie.
+- Inne istotne informacje: 
+  - Rafał Bomba zniknął dwa lata temu i używał fałszywego nazwiska "Musk".
+  - Zaczęły u niego występować zaburzenia psychiczne, m.in. obsesyjne wizje technologii przyszłości, stany niepokoju i paranoi, mówił o "ludziach z przyszłości".
+  - Jest obecnie umieszczony w ośrodku dla obłąkanych, pod ścisłym nadzorem medycznym.
+  - Mówił o urządzeniach modyfikujących pamięć i wpływających na rzeczywistość, przez co naukowcy przypuszczali, że mógł być obiektem eksperymentów z manipulacją umysłową. 
+  - Kontynuuje używanie fałszywego nazwiska "Musk".
+
+=== f05.txt ===
+- Osoby (imiona i nazwiska): Barbara Zawadzka, Aleksander Ragorski
+- Zawody/specjalizacje: specjalistka od frontend developementu, działaczka ruchu oporu
+- Specjalne umiejętności: biegła znajomość języków JavaScript i Python, zaawansowane techniki pracy ze sztuczną inteligencją i bazami wektorowymi, umiejętność kodowania i znajomość algorytmów sztucznej inteligencji, umiejętność przełamywania skomplikowanych zabezpieczeń systemów rządowych, umiejętność wpływania na systemy kontroli robotów, biegłość w walce wręcz, umiejętność posługiwania się bronią palną, umiejętność tworzenia koktajli Mołotowa, umiejętność pieczenia pizzy z ananasem
+- Inne istotne informacje: dotknięta konsekwencjami automatyzacji, dołączyła do ruchu oporu, związana z Aleksandrem Ragorskim, uczestniczka kursu krav magi, miejsce pobytu nieznane, dzięki Aleksandrowi zaangażowana w działania przeciwko reżimowi, pracuje nad projektem zakłócającym komunikację między jednostkami SI.
+
+=== f04.txt ===
+- Osoby (imiona i nazwiska): Aleksander Ragowski
+- Zawody/specjalizacje: nauczyciel języka angielskiego, programista
+- Specjalne umiejętności: kreatywne metody nauczania, zaangażowanie w życie społeczności szkolnej, programowanie (szczególnie w języku Java)
+- Inne istotne informacje: pracował w Szkole Podstawowej nr 9 w Grudziądzu, jest krytykiem "rządu robotów", był zmuszony ukrywać się po aresztowaniu i podejmuje aktywną walkę przeciwko władzy. Planuje wykorzystać swoje umiejętności programistyczne do przełamania zabezpieczeń systemów rządowych. Jego miejsce pobytu jest nieznane, ale może przebywać na obrzeżach większych miast, w strefach niedostępnych dla patroli automatycznych.

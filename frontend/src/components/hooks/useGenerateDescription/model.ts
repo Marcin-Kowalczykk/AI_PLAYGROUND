@@ -13,6 +13,7 @@ export type DescriptionKey =
   | 'descriptionExample8'
   | 'descriptionExample9'
   | 'descriptionExample10'
+  | 'descriptionExample11'
 
 export type Descriptions<T = DescriptionItem> = {
   [K in DescriptionKey]: DescriptionList<T>
