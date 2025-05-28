@@ -24,5 +24,6 @@ module.exports = {
     'no-trailing-spaces': 'error',
     'eol-last': ['error', 'always'],
     indent: ['error', 2],
+    '@typescript-eslint/no-explicit-any': 'off',
   },
 }

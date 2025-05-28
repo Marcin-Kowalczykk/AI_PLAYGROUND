@@ -1,0 +1,445 @@
+[
+  {
+    "text": "[![]({{$url0}})](/)\n\n# [![Tech•sistence]({{$url1}})](/)\n\nSubscribeSign in\n\n![]({{$img2}})![Tech•sistence]({{$url2}})\n\n#### Discover more from Tech•sistence\n\nSharing insights on technology: deep dives on AI, automation, as well as business-oriented content for founders and developers. Lessons learned from the bootstrapping journey in our various ventures.\n\nOver 3,000 subscribers\n\nSubscribe\n\nContinue reading\n\nSign in\n\n# Indie Hacker's Toolstack 2024\n\n### Tools, Apps, Services, and Configurations for Optimal Workflow\n\n[![]({{$url3}})](https://substack.com/profile/8247555-adam-gospodarczyk)\n\n[Adam Gospodarczyk]({{$url4}})\n\nMay 30, 2024\n\n20\n\n[6]({{$url5}})\n\n[Share]({{$url6}}))\n\nApps and tools are essential for me. I stay aware of new releases but don't fixate on them due to my established process. In this post, I'll outline my workflow and detail the tools and configurations I use. While everyone's needs differ, you may find inspiration here.\n\n[![]({{$url7}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52a28138-d687-4016-b0eb-0ea83c4b806f_1456x816.png)\n\n## Text editor(s)\n\nWriting is a crucial aspect of my work and various processes, including learning. Text appears in many areas, such as daily communication, emails, newsletters, articles, scripts, website descriptions, documentation, and documents. Reports from [Rize]({{$url8}}) show that the text editor is the application where I spend the most time (23%). Therefore, I ensure that writing experiences foster the creative process.\n\nI work with several text editors. They are:\n",
+    "metadata": {
+      "tokens": 979,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Text editor(s)"
+        ],
+        "h3": [
+          "Tools, Apps, Services, and Configurations for Optimal Workflow"
+        ],
+        "h4": [
+          "Discover more from Tech•sistence"
+        ]
+      },
+      "urls": [
+        "{{$img0}}",
+        "{{$img1}}",
+        "{{$img3}}",
+        "{{$img4}}",
+        "https://substack.com/@overment",
+        "https://www.techsistence.com/p/indie-hackers-toolstack-2024/comments",
+        "javascript:void(0",
+        "{{$img5}}",
+        "https://rize.io/"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_96,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0c3fd7-a216-4989-b35f-e7d5142e1dfe_400x400.png",
+        "https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png",
+        "https://substackcdn.com/image/fetch/w_128,h_128,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34779a32-c34b-4ba1-ade1-e08c4e68be66_646x646.png",
+        "https://substackcdn.com/image/fetch/w_48,h_48,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0c3fd7-a216-4989-b35f-e7d5142e1dfe_400x400.png",
+        "https://substackcdn.com/image/fetch/w_80,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29a3a05e-834d-4c48-9e18-859b7920980a_400x400.jpeg",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52a28138-d687-4016-b0eb-0ea83c4b806f_1456x816.png"
+      ]
+    }
+  },
+  {
+    "text": "\n- [iA Writer]({{$url0}}): In my opinion, it's the best Markdown syntax editor, with simplicity as its main advantage but it falls short in note organization and lacks related features.\n\n\n[![]({{$url1}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb59c388-ed78-4f98-87a0-62dd37fb37df_2800x1774.png)\n\n- [Paper]({{$url2}}): A great candidate to replace iA Writer, the writing experience is even better. Unfortunately, the app has some bugs and limitations, making it suitable only for simple notes.\n\n\n[![]({{$url3}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ded9c02-a1f4-4c97-a916-704c90a70430_2800x1786.png)\n\n- [Obsidian]({{$url4}}): An app I rarely write in and usually just paste content from iA Writer or Paper. But it’s great for organizing content. Paired with [Vitepress]({{$url5}}), I can share most of my notes online as a static website.\n\n\n[![]({{$url6}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff333d1a6-7981-4001-99f9-6d4c7e24a0ad_2800x1794.png)\n\n- [Notion]({{$url7}}): It's the final app where I primarily collaborate with others to create content, share it, or leverage automation. Notion stands out as the sole editor mentioned that offers an API, enabling integration with my services.\n\n\n[![]({{$url8}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd27c6227-821a-4be3-bca5-1758b9e0eae0_2800x1868.png)\n\n",
+    "metadata": {
+      "tokens": 930,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Text editor(s)"
+        ],
+        "h3": [
+          "Tools, Apps, Services, and Configurations for Optimal Workflow"
+        ],
+        "h4": [
+          "Discover more from Tech•sistence"
+        ]
+      },
+      "urls": [
+        "https://ia.net/topics/category/writer",
+        "{{$img0}}",
+        "https://papereditor.app/",
+        "{{$img1}}",
+        "https://obsidian.md/",
+        "https://vitepress.vuejs.org/",
+        "{{$img2}}",
+        "https://www.notion.so/",
+        "{{$img3}}"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb59c388-ed78-4f98-87a0-62dd37fb37df_2800x1774.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ded9c02-a1f4-4c97-a916-704c90a70430_2800x1786.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff333d1a6-7981-4001-99f9-6d4c7e24a0ad_2800x1794.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd27c6227-821a-4be3-bca5-1758b9e0eae0_2800x1868.png"
+      ]
+    }
+  },
+  {
+    "text": "Using multiple text editors actually works pretty well. iA Writer is for long-form writing, Paper for quick notes, Obsidian for organizing, and Notion for sharing with others. The common thread is the Markdown syntax, which I wrote more about in [Plain Text is What You Need]({{$url0}}).\n\nWhen I write, GPT-4 or Claude continuously assists me. Their role is **to correct and enhance readability**, as well as make similar transformations to the content I produce. LLMs also perform well during brainstorming sessions and discussions on my current focus topic.\n\n[![]({{$url1}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce9bcab2-ac34-4238-96c7-7d4f11528004_2800x1618.png)\n\nWhile writing:\n\n- Editor is in full-screen mode\n\n- Typing on [Wooting 60HE]({{$url2}}) keyboard\n\n- Listening to music on [Spotify]({{$url3}}) or [Endel]({{$url4}})\n\n- Taking screenshots with [Xnapper]({{$url5}})\n\n- Generating code snippets in [ray.so]({{$url6}}) via Puppeteer automation macro\n\n- Optimizing images with a macro linked to [TinyPNG]({{$url7}})\n\n- Sharing images and files using [Dropshare]({{$url8}})\n\n- Hosting images and files on [DigitalOcean]({{$url9}})\n\n- Using converters for HTML → Markdown, Markdown → HTML, Notion → Markdown, and Markdown → Notion. This allows me to write newsletters and blogs in markdown editor, then automate conversion to the target format. Uploading files to my own hosting is key here.\n\n- Keyboard settings: \"Key repeat rate\" at maximum and \"Delay until repeat\" at minimum\n\n- Using `text expander` for frequently repeated phrases like proper names (e.g., .tech becomes Tech•sistence), URLs, email addresses, contact details\n\n- Navigating almost entirely with the keyboard, avoiding the mouse. Useful shortcuts include: move cursor to start/end of word ( `Command + ← or →`), start/end of line ( `Option + ← or →`), start/end of paragraph ( `Command + ↑ or ↓`), delete next/previous word ( `Option + Backspace or Option + Shift + Backspace`), select line/word/paragraph.\n\n- Using trackpad gestures for controlling music, managing windows/desktops, switching text editor functions, or sending selected text to AI assistant.\n\n- Utilizing keyboard shortcuts for actions related to screenshots, file optimization, and uploading.\n\n- Using clipboard manager [Paste]({{$url10}}) for easier text editing and returning to previously copied content (links, snippets).\n\n\nAll these activities work for each app I mentioned. Even though Notion lets you paste images right into the document, I still upload them to my server first. Direct uploads to Notion expire and need you to log in, which messes with automation.\n\n## General Workflow\n\nTasks, emails, and events are another well-optimized area. Unlike text-writing tools, the priority here is API connectivity. This enables leveraging automation and AI for data organization. I wrote more about this in [User Interfaces may change because \"AI knows what we mean\"]({{$url11}}).\n",
+    "metadata": {
+      "tokens": 860,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "General Workflow"
+        ]
+      },
+      "urls": [
+        "https://www.techsistence.com/p/plain-text-is-what-you-need-but-why",
+        "{{$img0}}",
+        "https://wooting.io/",
+        "https://www.spotify.com/",
+        "https://endel.io/",
+        "https://xnapper.com/",
+        "https://ray.so/",
+        "https://tinypng.com/",
+        "https://dropshare.app/",
+        "https://www.digitalocean.com/",
+        "https://setapp.com/apps/paste",
+        "https://www.techsistence.com/p/user-interfaces-may-change-because"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce9bcab2-ac34-4238-96c7-7d4f11528004_2800x1618.png"
+      ]
+    }
+  },
+  {
+    "text": "\n### Managing tasks\n\n[Linear]({{$url0}}) is used both by our product team and myself to organize my work. All my tasks go here, and I rarely enter or edit their statuses manually. Instead, some entries appear due to automation (e.g., a new message with a label or a new file on Google Drive needing my attention). I add other entries via voice messages on Apple Watch or messages to the AI assistant on the Slack channel.\n\n[![]({{$url1}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72cf5bcc-d2e9-46cf-a27c-c77ed8ceafbb_2800x1636.png)\n\nOf all the task management tools, I've liked Todoist and Linear the most so far. Both offer APIs that allow nearly unrestricted data management. Besides the API, a clear GUI and keyboard shortcuts are crucial to me, and Linear definitely outperformed in this area. As seen in the screenshot above, you can customize views to suit your specific needs or current situation.\n\nSo, on the topic of task management:\n\n- I mainly add and edit tasks via voice or simple Slack and Alice messages. The AI then assigns new entries to the appropriate categories, priorities, and deadlines.\n\n- The organization and updating of entries in Linear is handled by a series of GPT-4 prompts, which consider the rules I've defined. If needed, I can override them by simply stating that a given task should be assigned to a different project than indicated by the category descriptions.\n\n- Automation fills a large part of my tasks with various events and schedules. When possible, the AI assistant fetches additional information for the task description.\n\n- My priority is API availability, as automation allows me to focus on executing tasks, removing most of the organizational burden, except for planning-related activities.\n\n\n### E-mail\n\nFor years, I've been rocking Google Workspace with Superhuman. No surprise there—Gmail's awesome on its own and packs some serious automation power. You can set up slick scenarios on make.com or dive into advanced filters right within Gmail.\n\n[![]({{$url2}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5a54336-880e-4ee5-8ece-a9700d3c2936_2800x2044.png)\n\nFor me, email automation means responding to new messages that Gmail labels automatically. For instance, emails with \"Invoice\" get the \"Invoices\" label. This kicks off a Make.com scenario to handle the message, like saving attachments to Google Drive or adding tasks to Linear.\n\n[![]({{$url3}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F967b78a6-354a-4515-ab90-ffcab354dca6_2800x1802.png)\n",
+    "metadata": {
+      "tokens": 956,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "General Workflow"
+        ],
+        "h3": [
+          "Managing tasks",
+          "E-mail"
+        ]
+      },
+      "urls": [
+        "https://linear.app/",
+        "{{$img0}}",
+        "{{$img1}}",
+        "{{$img2}}"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72cf5bcc-d2e9-46cf-a27c-c77ed8ceafbb_2800x1636.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5a54336-880e-4ee5-8ece-a9700d3c2936_2800x2044.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F967b78a6-354a-4515-ab90-ffcab354dca6_2800x1802.png"
+      ]
+    }
+  },
+  {
+    "text": "\nSometimes, filter rules miss a few messages. When that happens, I manually add labels in Superhuman using keyboard shortcuts. Makes the whole process way easier.\n\n[![]({{$url0}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F135df55a-19a7-420c-a61c-c6a7ee03da40_2800x1693.png)\n\nWorking with email also involves an account connected to an AI assistant, which can send various messages after completing assigned tasks. I wrote more about this in the post [Personal AGI]({{$url1}}).\n\nRegarding email management:\n\n- Superhuman's keyboard shortcuts and overall look & feel make working with email enjoyable and fast. Its high price is justified (though this is very subjective).\n\n- Gmail / Google Workspace is a \"must-have.\"\n\n- Combining automatic filters with labels and automation greatly simplifies email management, document organization, and prioritization.\n\n\n### Calendar\n\nMy calendar's pretty chill, with just a couple of bi-weekly recurring meetings. This setup lets me focus and handle communication asynchronously through Slack or other channels.\n\nYou can book a slot in my calendar through [Zencal]({{$url2}}). These pre-set time blocks automatically disappear when a meeting is scheduled or another entry, like a trip, appears in my calendar.\n\n[![]({{$url3}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffca68a39-7794-4c7c-8381-bd3d36221044_2800x1701.png)\n\nI can add new calendar entries via voice messages to my AI assistant, similar to a task list. The assistant can also check my availability or retrieve events from a specific range. Ultimately, I still occasionally check the calendar myself, and then I use the [Notion Calendar]({{$url4}}) app.\n\n[![]({{$url5}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F931e3330-7cf6-48ef-81ed-39a499b9b035_2800x1633.png)\n\nNotion Calendar in its own way resembles Superhuman and offers intuitive keyboard shortcuts and a minimalist interface.\n\nRegarding calendar management:\n\n- Managing entries is done either by voice or through simple messages to an AI assistant (requires custom integrations)\n\n- Zencal is a brilliant tool for scheduling meetings (including paid ones), which can incorporate various automations (e.g., sending forms before the meeting or notes after the meeting)\n\n- Notion Calendar is a good, though not perfect, client.\n",
+    "metadata": {
+      "tokens": 934,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "General Workflow"
+        ],
+        "h3": [
+          "Calendar"
+        ]
+      },
+      "urls": [
+        "{{$img0}}",
+        "https://www.techsistence.com/p/personal-agi-pushing-gpt-4-turbo",
+        "https://zencal.io/",
+        "{{$img1}}",
+        "https://www.notion.so/product/calendar",
+        "{{$img2}}"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F135df55a-19a7-420c-a61c-c6a7ee03da40_2800x1693.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffca68a39-7794-4c7c-8381-bd3d36221044_2800x1701.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F931e3330-7cf6-48ef-81ed-39a499b9b035_2800x1633.png"
+      ]
+    }
+  },
+  {
+    "text": "\n\n## Web Browsing\n\n[Arc Browser]({{$url0}}) is my main browser on both macOS and iOS. Despite the ability to organize tabs or profiles, I only use its basic functionalities. Yet, the Command Bar ( `Command + T`) and Little Arc ( `Command + Option + N`) make a significant difference for me.\n\n[![]({{$url1}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b6383b3-fce1-4e44-99f9-c15cced714cc_2800x1717.png)\n\nWhen I come across an interesting source (like an article, publication, or video) that I can’t review right then or know I’ll want to return to, I use a keyboard shortcut to send the open page to the AI assistant. The assistant then fetches available info about the page and saves the link to it in Linear and Feedly, pinning it to the appropriate board.\n\nStaying up-to-date and monitoring news on topics that interest me is handled through Feedly. Like with previous tools, the main factor influencing my choice here is the availability of an API.\n\n[![]({{$url2}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5d48558-533a-44c7-9b20-07079b124f09_2800x1717.png)\n\nI've connected Feedly boards with [Make.com]({{$url3}}) automations, so simply pinning a post triggers additional actions. For instance, it saves the link in my assistant’s long-term memory. This memory is linked with search engines (Algolia and Qdrant), making it easy to find previously saved sources without needing to remember their exact names.\n\n[![]({{$url4}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc5905b6-3c10-405c-a536-02f0e54f9b29_2800x2852.png)\n\nSo, browsing the web for me means:\n\n- I use the browser just for Internet browsing. I don’t save bookmarks or other info. Instead, I use macros and automation to organize knowledge in set places, all controlled by LLM (GPT-4-turbo and GPT-4o).\n\n- Staying updated and exploring new topics with Feedly and sites like [Product Hunt]({{$url5}}), [daily.dev]({{$url6}}), [Indie Hackers]({{$url7}}), or [HackerNews]({{$url8}}).\n\n- The foundation of the whole system is my custom AI assistant and its long-term memory. Note, this isn't Alice from [heyalice.app]({{$url9}}), but my private app, which I'm gradually making publicly available.\n\n\n## Graphic Design\n\n",
+    "metadata": {
+      "tokens": 984,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Web Browsing",
+          "Graphic Design"
+        ]
+      },
+      "urls": [
+        "https://arc.net/",
+        "{{$img0}}",
+        "{{$img1}}",
+        "http://make.com/",
+        "{{$img2}}",
+        "https://www.producthunt.com/",
+        "https://app.daily.dev/onboarding",
+        "https://www.indiehackers.com/",
+        "https://news.ycombinator.com/",
+        "https://heyalice.app/"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b6383b3-fce1-4e44-99f9-c15cced714cc_2800x1717.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5d48558-533a-44c7-9b20-07079b124f09_2800x1717.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc5905b6-3c10-405c-a536-02f0e54f9b29_2800x2852.png"
+      ]
+    }
+  },
+  {
+    "text": "Designing UI and promotional materials is an integral part of my work. I mainly use [Figma]({{$url0}}) and recently returned to [Adobe Photoshop Beta]({{$url1}}) due to its Generative AI features, which are excellent for editing images and assets generated in Midjourney.\n\nBelow is an example of covers for one of my courses, which I generated in Midjourney with slight editing through Adobe Firefly.\n\n[![]({{$url2}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F692b6320-4ab1-485a-88e8-24308a055598_2800x1189.png)\n\nFigma works phenomenally for UI design, especially when using components and the auto-layout feature.\n\n[![]({{$url3}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3623f2be-f47a-49cb-8fb8-5de05d6f0852_2800x1740.png)\n\nThere are creations generated according to templates, where creating new versions involves only text replacement or simple layout editing. In such cases, Webflow becomes my graphic editor.\n\n[![]({{$url4}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55a0aae7-6659-49bd-9328-569371e5dbeb_2800x2123.png)\n\nThe AI assistant only requires information from me on generating the graphic (or graphics), plus the necessary details to create them (e.g., text, background image link). It automates Webflow contact to update the CMS entry, downloads the page as a PNG, and sends it to me.\n\n[![]({{$url5}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad6a7ec4-a8d1-4eb0-a4c9-1af546da3b13_2800x6482.png)\n\nWhen designing creations, I always use Midjourney Alpha. I generate various graphic or asset variants there, which I often combine in Photoshop.\n\n",
+    "metadata": {
+      "tokens": 947,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Web Browsing",
+          "Graphic Design"
+        ]
+      },
+      "urls": [
+        "https://figma.com/",
+        "https://www.adobe.com/products/photoshop.html",
+        "{{$img0}}",
+        "{{$img1}}",
+        "{{$img2}}",
+        "{{$img3}}"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F692b6320-4ab1-485a-88e8-24308a055598_2800x1189.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3623f2be-f47a-49cb-8fb8-5de05d6f0852_2800x1740.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55a0aae7-6659-49bd-9328-569371e5dbeb_2800x2123.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad6a7ec4-a8d1-4eb0-a4c9-1af546da3b13_2800x6482.png"
+      ]
+    }
+  },
+  {
+    "text": "[![]({{$url0}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8071afb7-084a-42da-9a81-29f9e791e53d_2800x2123.png)\n\nSummarizing the topic of graphic design:\n\n- I use Generative AI, and currently, Midjourney or Stable Diffusion 3 works best.\n\n- Figma is undeniably the best available tool for interface design or creating advertisements. It's definitely worth getting to know its more advanced features, which save a lot of time.\n\n- Webflow combined with [HTMLCSSToImage]({{$url1}}) allows for automatic generation of graphics based on templates. Alternatively, you can use the latter tool directly, where you only need an HTML template in which you replace individual elements with automation.\n\n- Combining LLM with a set of templates allows for easy generation of entire sets of advertisements in various variants.\n\n\n## Programming\n\nProgramming is the second (after writing texts) activity that takes up most of my time, and therefore I also pay a lot of attention to it in the context of optimizing the entire process.\n\nI use the following tools:\n\n- [IntelliJ IDEA]({{$url2}}): This is my main code editor. Although I don't program in JAVA, IntelliJ works great with various programming languages (for me, it's TypeScript and Rust).\n\n- [Supermaven]({{$url3}}): This is an alternative to Github Copilot that I have just started using, and it makes a great first impression by suggesting code very intelligently.\n\n- [iTerm]({{$url4}}): Although I have gone through many different terminals, iTerm won with its simplicity and the fact that it performs its task perfectly.\n\n- [TablePlus]({{$url5}}): This is a great database client for macOS.\n\n\n[![]({{$url6}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F796b0f55-3b2e-444a-bebb-c7ef78411b70_2800x1683.png)\n\nYou can see my IntelliJ setup above. I've turned off all panels and extra options since I always use keyboard shortcuts. This makes sense given the IDE's extensive customization options and the inclusion of a \"Command Palette\" style search.\n\n[![]({{$url7}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42bc915a-7b57-415c-8cf7-703943ff6c7d_2800x1785.png)\n\nFor actions that do not have a keyboard shortcut, or I simply use them rarely, I use Search Menu Items, one of the options of the [Raycast]({{$url8}}) application.\n",
+    "metadata": {
+      "tokens": 966,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Programming"
+        ]
+      },
+      "urls": [
+        "{{$img0}}",
+        "https://htmlcsstoimage.com/",
+        "https://www.jetbrains.com/idea/",
+        "https://supermaven.com/",
+        "https://iterm2.com/",
+        "https://tableplus.com/",
+        "{{$img1}}",
+        "{{$img2}}",
+        "https://www.raycast.com/"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8071afb7-084a-42da-9a81-29f9e791e53d_2800x2123.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F796b0f55-3b2e-444a-bebb-c7ef78411b70_2800x1683.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42bc915a-7b57-415c-8cf7-703943ff6c7d_2800x1785.png"
+      ]
+    }
+  },
+  {
+    "text": "\n[![]({{$url0}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0dd2334c-d747-4ad6-bbbd-4a365da830ac_2800x1711.png)\n\nSince ChatGPT's release, large language models have been my constant programming companions. I'm not just talking about code generation or debugging but also problem discussions, design decisions, and learning new technologies. Of course, I always make the final decisions, but models like GPT-4-turbo and Claude 3 Opus are nearly perfect conversational partners.\n\nSo, on the topic of programming:\n\n- I use the best available tools that work for me. For example, despite Visual Studio Code's enormous popularity, IntelliJ works far better for me. The main reason is that IntelliJ simply \"understands my code\" much better than VSC.\n\n- Generative AI takes pair programming to another level for me. In this case, such a partner is available to me all the time and often has much more knowledge than I do, although it quite frequently makes mistakes. Despite this, the overall balance of mistakes versus the value I receive is definitely positive.\n\n- Where justified, I use tools to automate code tasks. Application deployment is a \"must-have\" I always perform through GitHub Actions.\n\n- As seen in the previous points, I use my programming skills not only to develop products and work but also to create tools for my own needs.\n\n\n## Macros and Automations\n\nI'll write a separate post about macros and automation, as it's too extensive a topic to cover in a few points. I'll just note that I work with applications: [Shortcuts]({{$url1}}), [Keyboard Maestro]({{$url2}}), [Better Touch Tool]({{$url3}}), [Raycast]({{$url4}}), and of course [make.com]({{$url5}}).\n\nMy system is powered by my personal API, seamlessly integrated with my AI assistant. This setup lets macros and automations communicate with me and each other. It evolves with new language models and tools.\n\nSo, if this topic catches your eye, subscribe to Tech•sistence to see my take on it👇\n\nTech•sistence is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.\n\nSubscribe\n\n## Fun\n\nOutside of work, I'm also a fan of books and games, spending my free afternoons and evenings with them. I log all the titles I've read on my Goodreads profile, often sharing highlighted passages or notes.\n\n[![]({{$url6}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8474c880-9545-4cf2-a326-b59355d01821_2800x2027.png)\n\nI always read books in the [Amazon Kindle]({{$url7}}) app or listen via [Audible]({{$url8}}). It’s very helpful that if you have both the audiobook and e-book versions, progress syncs between devices, making reading much easier.\n",
+    "metadata": {
+      "tokens": 914,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Macros and Automations",
+          "Fun"
+        ]
+      },
+      "urls": [
+        "{{$img0}}",
+        "https://apps.apple.com/us/app/shortcuts/id915249334",
+        "https://folivora.ai/",
+        "https://folivora.ai/",
+        "https://www.raycast.com/",
+        "https://www.make.com/",
+        "{{$img1}}",
+        "https://play.google.com/store/apps/details",
+        "https://www.audible.com/"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0dd2334c-d747-4ad6-bbbd-4a365da830ac_2800x1711.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8474c880-9545-4cf2-a326-b59355d01821_2800x2027.png"
+      ]
+    }
+  },
+  {
+    "text": "\nLately, I’ve been diving less into books since my interests have shifted to cutting-edge stuff like Generative AI and new programming languages/tools. When I do pick up a book, it’s usually a challenging, timeless one that takes more time than your typical business, psychology, or economics bestsellers.\n\nFor games, I’m all about the PlayStation 5 right now. Next up is Nvidia GeForce Now, streaming from my Steam account and more. On the go, I rock the Steam Deck—such an impressive device—and the Nintendo Switch.\n\n[![]({{$url0}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05647f5b-8e4e-46a7-a845-59de75ab3350_2800x1657.png)\n\nWhile gaming and reading, I also jam to music, which my AI assistant hooks up. So, having an API and cross-platform functionality is a must. Spotify nails it.\n\n[![]({{$url1}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee5133dc-c3ce-44d6-884b-32125883109f_2800x1950.png)\n\nWhen I need to focus, e.g., while programming, designing, or writing longer texts, I also turn to [endel.io]({{$url2}}).\n\n[![]({{$url3}})](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc876205-8aa9-4a2f-90ac-e66f0f018ec6_2800x2154.png)\n\n## Summary\n\nI didn’t cover every tool, but I think I gave a good overview of my current setup. If you have any questions about the tools I use or how I work with them, feel free to ask in the comments! Wrapping up, my setup is always evolving. Even if some tools have been with me for years, how I use them changes. It's key to my growth and daily life. My setup isn't just about boosting productivity—it's about making each day more enjoyable and fun.\n\nHave fun,\n\nAdam\n\n### Subscribe to Tech•sistence\n\nLaunched a year ago\n\nSharing insights on technology: deep dives on AI, automation, as well as business-oriented content for founders and developers. Lessons learned from the bootstrapping journey in our various ventures.\n\nSubscribe\n\n[![]({{$url4}})](https://substack.com/profile/177954372-greg-rog?utm_source=post-reactions-face)\n",
+    "metadata": {
+      "tokens": 980,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Summary"
+        ],
+        "h3": [
+          "Subscribe to Tech•sistence"
+        ]
+      },
+      "urls": [
+        "{{$img0}}",
+        "{{$img1}}",
+        "https://endel.io/",
+        "{{$img2}}",
+        "{{$img3}}"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05647f5b-8e4e-46a7-a845-59de75ab3350_2800x1657.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee5133dc-c3ce-44d6-884b-32125883109f_2800x1950.png",
+        "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc876205-8aa9-4a2f-90ac-e66f0f018ec6_2800x2154.png",
+        "https://substackcdn.com/image/fetch/w_80,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34779a32-c34b-4ba1-ade1-e08c4e68be66_646x646.png"
+      ]
+    }
+  },
+  {
+    "text": "\n[![]({{$url0}})](https://substack.com/profile/200784406-tomasz-gusciora?utm_source=post-reactions-face)\n\n[![]({{$url1}})](https://substack.com/profile/179752705-karolina-poczwardowska?utm_source=post-reactions-face)\n\n[![]({{$url2}})](https://substack.com/profile/70747159-przeprogramowani?utm_source=post-reactions-face)\n\n[![]({{$url3}})](https://substack.com/profile/866169-dai?utm_source=post-reactions-face)\n\n20 Likes\n\n·\n\n[5 Restacks]({{$url4}})\n\n20\n\n[6]({{$url5}})\n\n[Share]({{$url6}}))\n\nPreviousNext\n\n#### Discussion about this post\n\nComments\n\nRestacks\n\n![]({{$img4}})\n\n|     |     |\n| --- | --- |\n| [![]({{$url7}})](https://substack.com/profile/14315990-jan-skora) | [Jan Skora]({{$url8}})<br>[Learner Mindset ✨]({{$url9}})<br>[Jun 13]({{$url10}}) Liked by Adam Gospodarczyk<br>Inspiring setup. Thanks for sharing!<br>Expand full comment<br>[Like (1)]({{$url11}}))<br>Reply<br>Share |\n\n[1 reply]({{$url12}})\n\n|     |     |\n| --- | --- |\n",
+    "metadata": {
+      "tokens": 908,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Summary"
+        ],
+        "h3": [
+          "Subscribe to Tech•sistence"
+        ],
+        "h4": [
+          "Discussion about this post"
+        ]
+      },
+      "urls": [
+        "{{$img0}}",
+        "{{$img1}}",
+        "{{$img2}}",
+        "{{$img3}}",
+        "https://substack.com/note/p-145134231/restacks?utm_source=substack&utm_content=facepile-restacks",
+        "https://www.techsistence.com/p/indie-hackers-toolstack-2024/comments",
+        "javascript:void(0",
+        "{{$img5}}",
+        "https://substack.com/profile/14315990-jan-skora",
+        "https://learnermindset.substack.com?utm_source=substack&utm_medium=web&utm_content=comment_metadata",
+        "https://www.techsistence.com/p/indie-hackers-toolstack-2024/comment/58958923",
+        "javascript:void(0",
+        "https://www.techsistence.com/p/indie-hackers-toolstack-2024/comment/58958923"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_80,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d37e479-6b67-4633-aafc-41a37e15aa3c_2656x3984.jpeg",
+        "https://substackcdn.com/image/fetch/w_80,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F751da2fa-d58b-4ec5-a8a2-14a3282e6aeb_1280x853.jpeg",
+        "https://substackcdn.com/image/fetch/w_80,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F465f3b28-2d0a-4ad3-9cec-a9225ea1baa5_576x576.webp",
+        "https://substackcdn.com/image/fetch/w_80,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f5e6934-481a-4fc2-b573-cd144890df61_400x400.jpeg",
+        "https://substackcdn.com/image/fetch/w_64,h_64,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Flogged-out.png",
+        "https://substackcdn.com/image/fetch/w_66,h_66,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Flogged-out.png"
+      ]
+    }
+  },
+  {
+    "text": "| [![]({{$url0}})](https://substack.com/profile/45896486-alex-pliutau) | [Alex Pliutau]({{$url1}})<br>[packagemain.tech]({{$url2}})<br>[Jun 8]({{$url3}}) Liked by Adam Gospodarczyk<br>Great list! You've mentioned iTerm, have you tried [https://warp.dev]({{$url4}}) ? I switched to it few years ago and not coming back to iTerm.<br>Expand full comment<br>[Like (1)]({{$url5}}))<br>Reply<br>Share |\n\n[1 reply]({{$url6}})\n\n[4 more comments...]({{$url7}})\n\nTop\n\nLatest\n\nDiscussions\n\n[Non-Obvious Prompt Engineering Guide]({{$url8}})\n\n[There are many prompt writing tutorials available. In this one, I share unique insights not found elsewhere.]({{$url9}})\n\nJul 4•\n[Adam Gospodarczyk]({{$url10}})\n\n12\n\n[8]({{$url11}})\n\n![]({{$img1}})\n\n[Up to 90% of my code is now generated by AI]({{$url12}})\n\n[How is programming changing due to the development of generative artificial intelligence]({{$url13}})\n\nJul 19•\n[Adam Gospodarczyk]({{$url14}})\n\n12\n\n[7]({{$url15}})\n\n![]({{$img2}})\n\n[How to Build an AI Agent Using No-Code Tools?]({{$url16}})\n\n[An agent in make.com that has long-term memory (xata.io & qdrant.tech) and uses tools.]({{$url17}})\n\nApr 11•\n[Adam Gospodarczyk]({{$url18}})\n\n9\n\n[2]({{$url19}})\n\n![]({{$img3}})\n\nSee all\n\nReady for more?\n\n",
+    "metadata": {
+      "tokens": 953,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Summary"
+        ],
+        "h3": [
+          "Subscribe to Tech•sistence"
+        ],
+        "h4": [
+          "Discussion about this post"
+        ]
+      },
+      "urls": [
+        "{{$img0}}",
+        "https://substack.com/profile/45896486-alex-pliutau",
+        "https://packagemain.tech?utm_source=substack&utm_medium=web&utm_content=comment_metadata",
+        "https://www.techsistence.com/p/indie-hackers-toolstack-2024/comment/58507571",
+        "https://warp.dev",
+        "javascript:void(0",
+        "https://www.techsistence.com/p/indie-hackers-toolstack-2024/comment/58507571",
+        "https://www.techsistence.com/p/indie-hackers-toolstack-2024/comments",
+        "https://www.techsistence.com/p/non-obvious-prompt-engineering-guide",
+        "https://www.techsistence.com/p/non-obvious-prompt-engineering-guide",
+        "https://substack.com/@overment",
+        "https://www.techsistence.com/p/non-obvious-prompt-engineering-guide/comments",
+        "https://www.techsistence.com/p/up-to-90-of-my-code-is-now-generated",
+        "https://www.techsistence.com/p/up-to-90-of-my-code-is-now-generated",
+        "https://substack.com/@overment",
+        "https://www.techsistence.com/p/up-to-90-of-my-code-is-now-generated/comments",
+        "https://www.techsistence.com/p/how-to-build-an-ai-agent-using-no",
+        "https://www.techsistence.com/p/how-to-build-an-ai-agent-using-no",
+        "https://substack.com/@overment",
+        "https://www.techsistence.com/p/how-to-build-an-ai-agent-using-no/comments"
+      ],
+      "images": [
+        "https://substackcdn.com/image/fetch/w_66,h_66,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Flogged-out.png",
+        "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6df0917-dfe9-4bb7-8ec5-95869c7db975_3408x1910.png",
+        "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42b6550b-976c-4000-97e4-acb6bb8ea7fd_2216x1242.png",
+        "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45cc4ce3-838e-4962-a7d2-107c298e6bc7_1456x816.webp"
+      ]
+    }
+  },
+  {
+    "text": "Subscribe",
+    "metadata": {
+      "tokens": 9,
+      "headers": {
+        "h1": [
+          "[![Tech•sistence](https://substackcdn.com/image/fetch/e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fb71dcf-7fce-41c3-94ea-827182af48be_1344x256.png)](/)",
+          "Indie Hacker's Toolstack 2024"
+        ],
+        "h2": [
+          "Summary"
+        ],
+        "h3": [
+          "Subscribe to Tech•sistence"
+        ],
+        "h4": [
+          "Discussion about this post"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  }
+]
