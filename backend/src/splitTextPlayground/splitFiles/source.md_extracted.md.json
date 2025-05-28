@@ -1,0 +1,830 @@
+[
+  {
+    "text": "### Text Editors",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Text Editors"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[iA Writer]({{$url0}})**: A simple Markdown syntax editor, praised for its user-friendly interface but limited in note organization features.  ",
+    "metadata": {
+      "tokens": 45,
+      "headers": {},
+      "urls": [
+        "https://ia.net/topics/category/writer"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Paper]({{$url0}})**: A writing app with an excellent writing experience; however, it has some bugs and limitations, making it suitable primarily for simple notes.  ",
+    "metadata": {
+      "tokens": 48,
+      "headers": {},
+      "urls": [
+        "https://papereditor.app/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Obsidian]({{$url0}})**: Not commonly used for writing but effective for content organization. Works well with [Vitepress]({{$url1}}) for sharing notes online as a static website.  ",
+    "metadata": {
+      "tokens": 60,
+      "headers": {},
+      "urls": [
+        "https://obsidian.md/",
+        "https://vitepress.vuejs.org/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Notion]({{$url0}})**: Used mainly for collaboration and content creation, distinguished by its API integration capabilities.  ",
+    "metadata": {
+      "tokens": 39,
+      "headers": {},
+      "urls": [
+        "https://www.notion.so/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Writing Assistance",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Writing Assistance"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[GPT-4]({{$url0}})** and **Claude**: Models used for correcting, enhancing readability, and brainstorming during writing sessions.  ",
+    "metadata": {
+      "tokens": 47,
+      "headers": {},
+      "urls": [
+        "https://openai.com/gpt-4"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Workflow Tools",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Workflow Tools"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Rize]({{$url0}})**: A reporting tool tracking time spent on various applications, including text editors.  ",
+    "metadata": {
+      "tokens": 37,
+      "headers": {},
+      "urls": [
+        "https://rize.io/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Task Management",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Task Management"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Linear]({{$url0}})**: A task management tool used to organize work, where tasks are primarily added and managed via automation and voice messages.  ",
+    "metadata": {
+      "tokens": 43,
+      "headers": {},
+      "urls": [
+        "https://linear.app/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Todoist]({{$url0}})**: Another task management tool appreciated for its API capabilities, similar to Linear.  ",
+    "metadata": {
+      "tokens": 37,
+      "headers": {},
+      "urls": [
+        "https://todoist.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Email Management",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Email Management"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Google Workspace]({{$url0}})**: Primary email and organization platform.  ",
+    "metadata": {
+      "tokens": 29,
+      "headers": {},
+      "urls": [
+        "https://workspace.google.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Superhuman]({{$url0}})**: Email tool with enhanced automation features for managing messages efficiently.  ",
+    "metadata": {
+      "tokens": 34,
+      "headers": {},
+      "urls": [
+        "https://superhuman.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Make.com]({{$url0}})**: Used for setting up automated workflows between different services (e.g., email automation).  ",
+    "metadata": {
+      "tokens": 38,
+      "headers": {},
+      "urls": [
+        "http://make.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Calendar Management",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Calendar Management"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Zencal]({{$url0}})**: The scheduling tool that facilitates the automated management of calendar events.  ",
+    "metadata": {
+      "tokens": 37,
+      "headers": {},
+      "urls": [
+        "https://zencal.io/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Notion Calendar]({{$url0}})**: Provides calendar functionalities integrated with Notion, but not without limitations.  ",
+    "metadata": {
+      "tokens": 39,
+      "headers": {},
+      "urls": [
+        "https://www.notion.so/product/calendar"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Web Browsing",
+    "metadata": {
+      "tokens": 12,
+      "headers": {
+        "h3": [
+          "Web Browsing"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Arc Browser]({{$url0}})**: The primary browser used, noted for organizing tabs and enhancing web browsing efficiency.  ",
+    "metadata": {
+      "tokens": 37,
+      "headers": {},
+      "urls": [
+        "https://arc.net/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Feedly]({{$url0}})**: An RSS feed reader that monitors and stays updated on topics of interest, integrated with automation workflows.  ",
+    "metadata": {
+      "tokens": 42,
+      "headers": {},
+      "urls": [
+        "https://feedly.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Graphic Design",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Graphic Design"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Figma]({{$url0}})**: Main tool for UI design, particularly useful for its components and auto-layout features.  ",
+    "metadata": {
+      "tokens": 39,
+      "headers": {},
+      "urls": [
+        "https://figma.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Adobe Photoshop Beta]({{$url0}})**: Used for editing images and assets, leveraging its Generative AI features.  ",
+    "metadata": {
+      "tokens": 42,
+      "headers": {},
+      "urls": [
+        "https://www.adobe.com/products/photoshop.html"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Midjourney]({{$url0}})**: A tool for generating graphics and assets.  ",
+    "metadata": {
+      "tokens": 34,
+      "headers": {},
+      "urls": [
+        "https://www.midjourney.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Webflow]({{$url0}})**: Used for automating graphic generation based on templates.  ",
+    "metadata": {
+      "tokens": 33,
+      "headers": {},
+      "urls": [
+        "https://webflow.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Programming",
+    "metadata": {
+      "tokens": 10,
+      "headers": {
+        "h3": [
+          "Programming"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[IntelliJ IDEA]({{$url0}})**: Main development environment, supporting various programming languages effectively.  ",
+    "metadata": {
+      "tokens": 37,
+      "headers": {},
+      "urls": [
+        "https://www.jetbrains.com/idea/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Supermaven]({{$url0}})**: An AI assistant for coding that suggests code intelligently, comparable to GitHub Copilot.  ",
+    "metadata": {
+      "tokens": 42,
+      "headers": {},
+      "urls": [
+        "https://supermaven.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[iTerm]({{$url0}})**: Terminal application favored for its simplicity and functionality.  ",
+    "metadata": {
+      "tokens": 33,
+      "headers": {},
+      "urls": [
+        "https://iterm2.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[TablePlus]({{$url0}})**: A database client for macOS.  ",
+    "metadata": {
+      "tokens": 29,
+      "headers": {},
+      "urls": [
+        "https://tableplus.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Raycast]({{$url0}})**: Tool for quick access to commands and shortcuts in different applications.  ",
+    "metadata": {
+      "tokens": 36,
+      "headers": {},
+      "urls": [
+        "https://www.raycast.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Automation Tools",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Automation Tools"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Shortcuts]({{$url0}})**: Application for creating automation workflows on Apple devices.  ",
+    "metadata": {
+      "tokens": 40,
+      "headers": {},
+      "urls": [
+        "https://apps.apple.com/us/app/shortcuts/id915249334"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Keyboard Maestro]({{$url0}})**: A macro automation tool.  ",
+    "metadata": {
+      "tokens": 30,
+      "headers": {},
+      "urls": [
+        "https://folivora.ai/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Better Touch Tool]({{$url0}})**: Another automation tool focused on enhancing touchpad and keyboard interactions.  ",
+    "metadata": {
+      "tokens": 37,
+      "headers": {},
+      "urls": [
+        "https://folivora.ai/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Media Consumption",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Media Consumption"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Amazon Kindle]({{$url0}})**: Used for reading e-books.  ",
+    "metadata": {
+      "tokens": 31,
+      "headers": {},
+      "urls": [
+        "https://play.google.com/store/apps/details"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Audible]({{$url0}})**: Platform for listening to audiobooks, synchronized with Kindle progress.  ",
+    "metadata": {
+      "tokens": 38,
+      "headers": {},
+      "urls": [
+        "https://www.audible.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Spotify]({{$url0}})**: Music streaming service integrated with various applications for background music during work.  ",
+    "metadata": {
+      "tokens": 36,
+      "headers": {},
+      "urls": [
+        "https://www.spotify.com/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Endel]({{$url0}})**: Used for generating background sounds to enhance focus while working.  ",
+    "metadata": {
+      "tokens": 34,
+      "headers": {},
+      "urls": [
+        "https://endel.io/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "### Fun Tools",
+    "metadata": {
+      "tokens": 11,
+      "headers": {
+        "h3": [
+          "Fun Tools"
+        ]
+      },
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Steam Deck]({{$url0}})**: A portable gaming device.  ",
+    "metadata": {
+      "tokens": 33,
+      "headers": {},
+      "urls": [
+        "https://www.steampowered.com/steamdeck"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[Nvidia GeForce Now]({{$url0}})**: Cloud gaming service for streaming games from a library.  ",
+    "metadata": {
+      "tokens": 41,
+      "headers": {},
+      "urls": [
+        "https://www.nvidia.com/en-us/geforce-now/"
+      ],
+      "images": []
+    }
+  },
+  {
+    "text": "  ",
+    "metadata": {
+      "tokens": 9,
+      "headers": {},
+      "urls": [],
+      "images": []
+    }
+  },
+  {
+    "text": "- **[PlayStation 5]({{$url0}})**: Current gaming console.  ",
+    "metadata": {
+      "tokens": 30,
+      "headers": {},
+      "urls": [
+        "https://www.playstation.com/"
+      ],
+      "images": []
+    }
+  }
+]

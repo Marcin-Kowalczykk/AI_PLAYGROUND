@@ -23,13 +23,17 @@
     "example8": "bun src/example8/app.ts",
     "example9": "bun src/example9/app.ts",
     "example10": "bun src/example10/app.ts",
-    "example11": "bun src/example11/app.ts"
+    "example11": "bun src/example11/app.ts",
+    "split-text-test": "bun src/splitTextPlayground/app.ts",
+    "qdrant-test": "bun src/qdrantVectorsPlayground/app.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@microsoft/tiktokenizer": "^1.0.10",
+    "@qdrant/js-client-rest": "^1.14.1",
     "@types/multer": "^1.4.12",
     "@types/sharp": "^0.32.0",
     "@types/turndown": "^5.0.5",
