@@ -80,7 +80,7 @@ const textSplitter = new TextSplitter()
 const initializeDataToQdrant = async () => {
   const points = await Promise.all(
     data.map(async ({ author, text }) => {
-      const doc = await textSplitter.document(text, 'gpt-4o', { author })
+      const doc = await textSplitter.document(text, { author })
       return doc
     }),
   )
@@ -133,8 +133,6 @@ const main = async () => {
     15,
   )
 
-  console.log('searchResultsFromQdrant:', searchResultsFromQdrant)
-
   const relevanceChecks = await Promise.all(
     searchResultsFromQdrant.map(async (result) => {
       const systemPrompt =
@@ -154,8 +152,6 @@ const main = async () => {
 
   const relevantResults = relevanceChecks.filter((result) => result.isRelevant)
 
-  console.log(`Query: ${query}`)
-  console.log(`Author(s): ${authors.join(', ')}`)
   console.table(
     relevantResults.map((result) => ({
       Author: result.payload?.author || '',

@@ -222,8 +222,8 @@ export class TextSplitter {
 
   async document(
     text: string,
-    model?: string,
     additionalMetadata?: Record<string, any>,
+    model: string = 'gpt-4o',
   ): Promise<IDoc> {
     await this.initializeTokenizer(model)
     const tokens = this.countTokens(text)

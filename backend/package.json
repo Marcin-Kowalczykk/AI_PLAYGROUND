@@ -17,6 +17,7 @@
     "start:example9": "ts-node src/example9/app.ts",
     "start:example10": "ts-node src/example10/app.ts",
     "start:example11": "ts-node src/example11/app.ts",
+    "start:example12": "ts-node src/example12/app.ts",
     "example3": "bun src/example3/app.ts",
     "example5": "bun src/example5/app.ts",
     "example6": "bun src/example6/app.ts",
@@ -24,6 +25,7 @@
     "example9": "bun src/example9/app.ts",
     "example10": "bun src/example10/app.ts",
     "example11": "bun src/example11/app.ts",
+    "example12": "bun src/example12/app.ts",
     "split-text-test": "bun src/splitTextPlayground/app.ts",
     "qdrant-test": "bun src/qdrantVectorsPlayground/app.ts"
   },
