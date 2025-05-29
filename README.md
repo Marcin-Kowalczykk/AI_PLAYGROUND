@@ -1,8 +1,13 @@
-# React + TypeScript + Vite + Express.js
-
 # DESCRIPTION:
 
-This is a playground for my current knowledge about LLMs in web applications (more information below). To run this app you need openAI apiKey and some endpoints to external Apis
+This is a playground for my current knowledge about LLMs in web applications (more information below).
+
+# Tech stack:<br>
+Frontend: React + TypeScript<br>
+Bundler: Vite<br>
+Backend: Express.js<br>
+Vector database: Qdrant<br>
+LLM: models from OpenAi<br>
 
 # Frontend
 
