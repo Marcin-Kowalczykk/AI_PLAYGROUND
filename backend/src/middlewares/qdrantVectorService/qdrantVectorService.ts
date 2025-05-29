@@ -79,11 +79,15 @@ export const initializeAndSaveQdrantCollectionWithData = async (
 ) => {
   const collections = await qdrantClient.getCollections()
   if (!collections.collections.some((collection) => collection.name === collectionName)) {
+    console.log('create new vector collection...')
     await createNewCollection(collectionName)
+    console.log('create payload index...')
     if (payloadIndexName) {
       await createPayloadIndex(collectionName, payloadIndexName)
     }
+    console.log('upsert new points to qdrant vectorcollection...')
     const pointsToUpsert = await upsertNewPointsToQdrantCollectionByOpenAi(collectionName, points)
+    console.log('save points to file...')
     await savePointsToFile(collectionName, pointsToUpsert)
   }
 }
@@ -94,6 +98,8 @@ export const searchFromQdrantCollectionByOpenAi = async (
   filter: Record<string, any> = {},
   limit: number = 5,
 ) => {
+  console.log('search from qdrant collection...')
+  console.log('query: ', query)
   const queryEmbedding = await createOpenAiEmbedding(query)
   return qdrantClient.search(collectionName, {
     vector: queryEmbedding,
