@@ -19,6 +19,15 @@ export const createNewCollection = async (collectionName: string) => {
   }
 }
 
+export const createPayloadIndex = async (collectionName: string, payloadIndexName: string) => {
+  const payloadIndex = await qdrantClient.createPayloadIndex(collectionName, {
+    field_name: payloadIndexName,
+    field_schema: 'keyword',
+  })
+
+  return payloadIndex
+}
+
 export const upsertNewPointsToQdrantCollectionByOpenAi = async (
   collectionName: string,
   points: Array<{
@@ -66,10 +75,14 @@ export const initializeAndSaveQdrantCollectionWithData = async (
     text: string
     metadata?: Record<string, any>
   }>,
+  payloadIndexName?: string,
 ) => {
   const collections = await qdrantClient.getCollections()
   if (!collections.collections.some((collection) => collection.name === collectionName)) {
     await createNewCollection(collectionName)
+    if (payloadIndexName) {
+      await createPayloadIndex(collectionName, payloadIndexName)
+    }
     const pointsToUpsert = await upsertNewPointsToQdrantCollectionByOpenAi(collectionName, points)
     await savePointsToFile(collectionName, pointsToUpsert)
   }
