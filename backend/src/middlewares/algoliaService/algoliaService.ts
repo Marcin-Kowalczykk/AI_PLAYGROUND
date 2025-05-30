@@ -16,7 +16,6 @@ export const isAlgoliaIndexExists = async (indexName: string) => {
   return allIndices.items.some((index) => index.name === indexName)
 }
 
-//this is a bit useless addOrUpdateAlgoliaObject is better
 export const saveAlgoliaObject = async (indexName: string, object: Record<string, any>) => {
   return algoliaClient.saveObject({ indexName, body: object })
 }

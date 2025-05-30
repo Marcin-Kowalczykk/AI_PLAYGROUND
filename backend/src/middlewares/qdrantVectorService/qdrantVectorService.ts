@@ -10,7 +10,7 @@ export const qdrantClient = new QdrantClient({
   apiKey: process.env.QDRANT_API_KEY,
 })
 
-export const createNewCollection = async (collectionName: string) => {
+export const createNewQdrantCollection = async (collectionName: string) => {
   const collections = await qdrantClient.getCollections()
   if (!collections.collections.some((collection) => collection.name === collectionName)) {
     await qdrantClient.createCollection(collectionName, {
@@ -59,13 +59,50 @@ export const upsertNewPointsToQdrantCollectionByOpenAi = async (
   return pointsToUpsert
 }
 
-export const savePointsToFile = async (collectionName: string, points: any) => {
+export const updatePointInQdrantCollection = async (
+  collectionName: string,
+  point: {
+    id: string
+    text: string
+    metadata?: Record<string, any>
+  },
+) => {
+  await initializeAndSaveQdrantCollectionWithData(collectionName, [point])
+}
+
+export const deletePointInQdrantCollection = async (collectionName: string, pointId: string) => {
+  await qdrantClient.delete(collectionName, {
+    wait: true,
+    points: [pointId],
+  })
+}
+
+export const savePointsToFile = async (collectionName: string, points: any[]) => {
   const dirPath = path.join(__dirname, collectionName)
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath)
   }
   const pointsFilePath = path.join(dirPath, `points-${collectionName}.json`)
-  fs.writeFileSync(pointsFilePath, JSON.stringify(points, null, 2))
+
+  let existingPoints: any[] = []
+  if (fs.existsSync(pointsFilePath)) {
+    const fileContent = fs.readFileSync(pointsFilePath, 'utf-8')
+    try {
+      existingPoints = JSON.parse(fileContent)
+      if (!Array.isArray(existingPoints)) {
+        existingPoints = []
+      }
+    } catch {
+      existingPoints = []
+    }
+  }
+
+  const existingIds = new Set(existingPoints.map((p) => p.id))
+
+  const newUniquePoints = points.filter((p) => !existingIds.has(p.id))
+
+  const updatedPoints = [...existingPoints, ...newUniquePoints]
+  fs.writeFileSync(pointsFilePath, JSON.stringify(updatedPoints, null, 2))
 }
 
 export const initializeAndSaveQdrantCollectionWithData = async (
@@ -77,19 +114,16 @@ export const initializeAndSaveQdrantCollectionWithData = async (
   }>,
   payloadIndexName?: string,
 ) => {
-  const collections = await qdrantClient.getCollections()
-  if (!collections.collections.some((collection) => collection.name === collectionName)) {
-    console.log('create new vector collection...')
-    await createNewCollection(collectionName)
-    console.log('create payload index...')
-    if (payloadIndexName) {
-      await createPayloadIndex(collectionName, payloadIndexName)
-    }
-    console.log('upsert new points to qdrant vectorcollection...')
-    const pointsToUpsert = await upsertNewPointsToQdrantCollectionByOpenAi(collectionName, points)
-    console.log('save points to file...')
-    await savePointsToFile(collectionName, pointsToUpsert)
+  console.log('create new qdrant collection...')
+  await createNewQdrantCollection(collectionName)
+  if (payloadIndexName) {
+    console.log('create qdrant payload index...')
+    await createPayloadIndex(collectionName, payloadIndexName)
   }
+  console.log('upsert new points to qdrant vector collection...')
+  const pointsToUpsert = await upsertNewPointsToQdrantCollectionByOpenAi(collectionName, points)
+  console.log('save points to file...')
+  await savePointsToFile(collectionName, pointsToUpsert)
 }
 
 export const searchFromQdrantCollectionByOpenAi = async (
