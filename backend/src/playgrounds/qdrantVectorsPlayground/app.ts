@@ -1,10 +1,10 @@
 import { ChatCompletionMessageParam } from 'openai/resources/chat/completions'
-import { askOpenAI } from '../middlewares/askOpenAI/askOpenAi'
+import { askOpenAI } from '../../middlewares/askOpenAI/askOpenAi'
 import {
   initializeAndSaveQdrantCollectionWithData,
   searchFromQdrantCollectionByOpenAi,
-} from '../middlewares/qdrantVectorService/qdrantVectorService'
-import { TextSplitter } from '../middlewares/splitTextService'
+} from '../../middlewares/qdrantVectorService/qdrantVectorService'
+import { TextSplitter } from '../../middlewares/splitTextService'
 
 console.log('qdrantVectorsPlayground-test')
 

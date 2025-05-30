@@ -26,8 +26,9 @@
     "example10": "bun src/example10/app.ts",
     "example11": "bun src/example11/app.ts",
     "example12": "bun src/example12/app.ts",
-    "split-text-test": "bun src/splitTextPlayground/app.ts",
-    "qdrant-test": "bun src/qdrantVectorsPlayground/app.ts"
+    "split-text-test": "bun src/playgrounds/splitTextPlayground/app.ts",
+    "qdrant-test": "bun src/playgrounds/qdrantVectorsPlayground/app.ts",
+    "algolia-test": "bun src/playgrounds/algoliaSearchPlayground/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -39,6 +40,7 @@
     "@types/multer": "^1.4.12",
     "@types/sharp": "^0.32.0",
     "@types/turndown": "^5.0.5",
+    "algoliasearch": "^5.25.0",
     "axios": "^1.9.0",
     "cheerio": "^1.0.0",
     "cors": "^2.8.5",

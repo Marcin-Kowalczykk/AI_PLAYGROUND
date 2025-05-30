@@ -1,7 +1,7 @@
 import path from 'path'
 import fs from 'fs'
-import { IDoc, TextSplitter } from '../middlewares/splitTextService'
-import { askOpenAI } from '../middlewares/askOpenAI/askOpenAi'
+import { IDoc, TextSplitter } from '../../middlewares/splitTextService'
+import { askOpenAI } from '../../middlewares/askOpenAI/askOpenAi'
 import { ChatCompletionMessageParam } from 'openai/resources/chat/completions'
 
 const defaultFilesDirPath = path.join(__dirname, 'defaultFiles')
