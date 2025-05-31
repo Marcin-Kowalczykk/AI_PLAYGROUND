@@ -91,4 +91,4 @@ const updateTable = async () => {
 }
 
 // syncDbQdrantAlgolia()
-updateTable()
+// updateTable()
