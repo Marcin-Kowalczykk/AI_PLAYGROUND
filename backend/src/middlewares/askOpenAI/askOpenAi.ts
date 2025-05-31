@@ -14,7 +14,7 @@ import { IAskOpenAIResponse, IAskOpenAI, IAskOpenAiImage, IAskOpenAiImageRespons
 export const askOpenAI = async ({
   systemPrompt = 'You are a helpful assistant.',
   messages,
-  model = 'gpt-4',
+  model = 'gpt-4o',
   temperature,
   max_tokens,
   isTracing = false,
