@@ -1,28 +1,12 @@
-import axios from 'axios'
 import 'dotenv/config'
 import { askOpenAI } from '../middlewares/askOpenAI/askOpenAi'
 import { ChatCompletionMessageParam } from 'openai/resources/chat/completions'
 import { sendAnswerToCentralApi } from '../middlewares/sendAnswerToCentralApi/sendAnswerToCentralApi'
-
-export const sendDbQuery = async (query: string): Promise<any> => {
-  const payload = {
-    task: 'database',
-    apikey: process.env.POLIGON_API_KEY,
-    query,
-  }
-  try {
-    const response = await axios.post(`${process.env.CENTRALA_API_URL}/apidb`, payload)
-
-    return response.data
-  } catch (error) {
-    console.error('Error in sendDbQuery:', error)
-    throw error
-  }
-}
+import { sendDbQuery } from '../middlewares/sendDbQueryapidb'
 
 export const showTables = async (): Promise<string[] | undefined> => {
   try {
-    const response = await sendDbQuery('SHOW TABLES;')
+    const response = await sendDbQuery('SHOW TABLES;', 'database')
 
     const tables = response.reply.map((table: any) => table.Tables_in_banan)
 
@@ -35,7 +19,7 @@ export const showTables = async (): Promise<string[] | undefined> => {
 
 export const showCreateTable = async (tableName: string): Promise<void> => {
   try {
-    const response = await sendDbQuery(`SHOW CREATE TABLE ${tableName};`)
+    const response = await sendDbQuery(`SHOW CREATE TABLE ${tableName};`, 'database')
 
     return response.reply
   } catch (error) {
@@ -100,8 +84,8 @@ export const handleProcessExample13 = async (): Promise<any> => {
 
   console.log('createTableDatacenters: ', createTableDatacenters)
 
-  const usersFromDbTable = await sendDbQuery('SELECT * FROM users;')
-  const datacentersFromDbTable = await sendDbQuery('SELECT * FROM datacenters;')
+  const usersFromDbTable = await sendDbQuery('SELECT * FROM users;', 'database')
+  const datacentersFromDbTable = await sendDbQuery('SELECT * FROM datacenters;', 'database')
 
   console.log('USERS:', usersFromDbTable)
   console.log('DATACENTERS:', datacentersFromDbTable)
@@ -113,7 +97,7 @@ export const handleProcessExample13 = async (): Promise<any> => {
       usersFromDbTable,
       datacentersFromDbTable,
     )
-    const result = await sendDbQuery(SQLquery)
+    const result = await sendDbQuery(SQLquery, 'database')
     const dcIds = extractDcIds(result)
     console.log('RESULT:', dcIds)
 
@@ -128,4 +112,4 @@ export const handleProcessExample13 = async (): Promise<any> => {
   }
 }
 
-handleProcessExample13()
+// handleProcessExample13()
