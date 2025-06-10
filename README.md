@@ -73,7 +73,7 @@ Check what's going on below.
 - Questions and answers are based on previous questions and answers
 - Ai remember previous question and answers
 - Process works till external api will approve you as a robot based on your (AI) answers
-- You can manipulate AI’s responses by changing its system prompt (systemMsgExample2)
+- You can manipulate AI's responses by changing its system prompt (systemMsgExample2)
 - You will see conversation in browser interface and in browser console
 
 ### EXAMPLE3
@@ -168,3 +168,108 @@ BONUS: cache all LLM's answers in txt files to optimize App
 - App creates json file with all keywords
 - If you use bun you can run scripts by bun example11 inside backend directory or by click button on frontend
 - You can see steps (console.logs) in backend terminal
+
+### EXAMPLE12
+
+- Application focused on semantic search using vector databases to analyze weapon test reports
+- The application processes encrypted ZIP files containing weapon test reports
+- Uses vector database (Qdrant) to store and search through report embeddings
+- Implements semantic search to find specific information about weapon prototype theft
+- Key features:
+  - Downloads and decrypts ZIP files with password
+  - Extracts dates from report filenames
+  - Generates embeddings for report contents using OpenAI's text-embedding-3-large model
+  - Stores vectors with metadata in Qdrant database
+  - Performs semantic search to find relevant report
+  - Returns date in YYYY-MM-DD format
+- You can run scripts by type npm run start:example12 inside backend directory
+- If you use bun you can run scripts by bun example12 inside backend directory or by click button on frontend
+- You can see steps (console.logs) in backend terminal
+
+### EXAMPLE13
+
+- Application focused on database querying and analysis using LLM to generate SQL queries
+- The application interacts with a remote database API to discover and analyze database structure
+- Key features:
+  - Connects to external database API endpoint
+  - Discovers database structure using SHOW TABLES and SHOW CREATE TABLE commands
+  - Uses LLM to generate appropriate SQL queries based on database schema
+  - Processes database responses to extract relevant information
+  - Implements agent-like behavior for iterative database exploration
+  - Handles error cases and validates responses
+- The application demonstrates:
+  - Database schema analysis
+  - SQL query generation using LLM
+  - API interaction with external database service
+  - Data processing and transformation
+  - Error handling and validation
+- You can run scripts by type npm run start:example13 inside backend directory
+- If you use bun you can run scripts by bun example13 inside backend directory or by click button on frontend
+- You can see steps (console.logs) in backend terminal
+
+### EXAMPLE14
+
+- Application focused on tracking and analyzing movement patterns of resistance members
+- The application implements an iterative search system using two external APIs:
+  - People search API to find locations where specific people were seen
+  - Places search API to find people seen in specific cities
+- Key features:
+  - Downloads and analyzes initial data from a target person's note
+  - Extracts names and cities from the note using LLM
+  - Implements iterative search algorithm using two queues (people and cities)
+  - Normalizes input data (removes Polish characters, converts to uppercase)
+  - Handles API responses and data validation
+  - Tracks search progress to avoid duplicate queries
+- The application demonstrates:
+  - API integration with multiple endpoints
+  - Data normalization and processing
+  - Iterative search algorithms
+  - LLM-assisted text analysis
+  - State management for search progress
+- You can run scripts by type npm run start:example14 inside backend directory
+- If you use bun you can run scripts by bun example14 inside backend directory or by click button on frontend
+- You can see steps (console.logs) in backend terminal
+
+### EXAMPLE15
+
+- Application focused on graph database operations and path finding between users
+- The application implements a system to find the shortest path between two people in a social network
+- Key features:
+  - Connects to MySQL database to fetch user and connection data
+  - Implements Neo4j graph database integration
+  - Creates user nodes and relationship edges in the graph database
+  - Implements shortest path finding algorithm
+  - Handles data transformation between different database formats
+  - Processes and formats path results
+- The application demonstrates:
+  - Graph database operations
+  - Data migration between different database types
+  - Path finding algorithms
+  - Database schema design
+  - Data normalization and transformation
+- You can run scripts by type npm run start:example15 inside backend directory
+- If you use bun you can run scripts by bun example15 inside backend directory or by click button on frontend
+- You can see steps (console.logs) in backend terminal
+
+### EXAMPLE16
+
+- Application focused on image processing and person description generation using AI
+- The application implements an interactive system for analyzing and enhancing damaged photos
+- Key features:
+  - Interacts with central API to process and enhance photos
+  - Uses Vision LLM models to analyze photo quality and content
+  - Implements image enhancement commands (REPAIR, DARKEN, BRIGHTEN)
+  - Processes multiple photos to identify target person
+  - Generates detailed person description in Polish
+  - Handles API rate limits and optimizes token usage
+- The application demonstrates:
+  - Vision AI model integration
+  - Image processing and enhancement
+  - Natural language processing for description generation
+  - API interaction and response parsing
+  - Multi-step image analysis workflow
+- You can run scripts by type npm run start:example16 inside backend directory
+- If you use bun you can run scripts by bun example16 inside backend directory or by click button on frontend
+- You can see steps (console.logs) in backend terminal
+
+
