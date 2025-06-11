@@ -272,4 +272,24 @@ BONUS: cache all LLM's answers in txt files to optimize App
 - If you use bun you can run scripts by bun example16 inside backend directory or by click button on frontend
 - You can see steps (console.logs) in backend terminal
 
+### EXAMPLE17
+
+- Application focused on supervised fine-tuning of LLM models for data validation
+- The application implements a system to train and use a custom model for validating research data
+- Key features:
+  - Downloads and processes research data from central API
+  - Creates training data in JSONL format for model fine-tuning
+  - Implements supervised fine-tuning using OpenAI's platform
+  - Uses fine-tuned model to validate new research data
+  - Processes and formats validation results
+- The application demonstrates:
+  - OpenAI fine-tuning workflow
+  - Training data preparation
+  - Model validation and testing
+  - API integration with OpenAI's fine-tuning platform
+  - Data processing and validation
+- You can run scripts by type npm run start:example17 inside backend directory
+- If you use bun you can run scripts by bun example17 inside backend directory or by click button on frontend
+- You can see steps (console.logs) in backend terminal
+
 
