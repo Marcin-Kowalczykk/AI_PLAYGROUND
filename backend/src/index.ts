@@ -180,11 +180,11 @@ app.post(
   `${api}/post-instruction-example19`,
   async (req: Request, res: Response): Promise<void> => {
     try {
-      console.log('Instruction from Centrala: ', req.body.instruction)
+      console.log('Instruction from Centrala: ', req.body)
 
-      const result = await handleProcessExample19(req.body.instruction)
+      const result = await handleProcessExample19(req.body)
 
-      res.json({ result })
+      res.status(200).json(result)
     } catch (error) {
       console.error('Error in POST /post-instruction-example19:', error)
       res.status(500).json({ error: 'Internal server error' })
