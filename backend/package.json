@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node src/index.ts",
     "build": "tsc && npm run copy-static",
-    "copy-static": "cp -r src/example9/input_files dist/example9/",
+    "copy-static": "cp -r src/example9/input_files dist/example9/ && cp -r src/example11/defaultFiles dist/example11/ && cp -r src/example12/files_from_factory dist/example12/ && cp -r src/example14/files dist/example14/ && cp -r src/example17/helpers.ts dist/example17/ && cp src/example17/answers.txt dist/example17/",
     "start": "node dist/index.js",
     "lint": "eslint 'src/**/*.{ts,js}'",
     "lint:fix": "eslint 'src/**/*.{ts,js}' --fix",
