@@ -16,6 +16,7 @@ import { handleProcessExample8 } from './example8/app'
 import { handleProcessExample9 } from './example9/app'
 import { handleProcessExample10 } from './example10/app'
 import { handleProcessExample11 } from './example11/app'
+import { handleProcessExample19 } from './example19/app'
 
 const app = express()
 const port = 3000
@@ -171,6 +172,31 @@ app.get(`${api}/get-flag-example11`, async (_req: Request, res: Response) => {
     res.json({ flag: answerFromCentralApi?.message })
   } catch (error) {
     console.error('Error in GET /get-flag-example11:', error)
+    res.status(500).json({ error: 'Internal server error.' })
+  }
+})
+//example19
+app.post(
+  `${api}/post-instruction-example19`,
+  async (req: Request, res: Response): Promise<void> => {
+    try {
+      console.log('Instruction from Centrala: ', req.body.instruction)
+
+      const result = await handleProcessExample19(req.body.instruction)
+
+      res.json({ result })
+    } catch (error) {
+      console.error('Error in POST /post-instruction-example19:', error)
+      res.status(500).json({ error: 'Internal server error' })
+    }
+  },
+)
+
+app.get(`${api}/get-example`, async (_req: Request, res: Response) => {
+  try {
+    res.json({ result: 'result from my api test' })
+  } catch (error) {
+    console.error('Error in GET /get-example:', error)
     res.status(500).json({ error: 'Internal server error.' })
   }
 })
